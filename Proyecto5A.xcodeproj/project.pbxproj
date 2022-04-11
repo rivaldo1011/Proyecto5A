@@ -31,6 +31,8 @@
 		C857A0082804898D00053143 /* kisspng-arrow-button-computer-icons-clip-art-left-arrow-5b35cacb096341.9629085015302519790385.png in Resources */ = {isa = PBXBuildFile; fileRef = C857A0072804898D00053143 /* kisspng-arrow-button-computer-icons-clip-art-left-arrow-5b35cacb096341.9629085015302519790385.png */; };
 		C857A00E28048C5100053143 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C857A00D28048C5100053143 /* WebViewController.m */; };
 		C857A0142804923E00053143 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C857A0132804923D00053143 /* WebKit.framework */; };
+		C857A0192804990E00053143 /* kisspng-arrow-symbol-computer-icons-clip-art-back-5abde9b67c3793.6755743315223955745088.png in Resources */ = {isa = PBXBuildFile; fileRef = C857A0182804990E00053143 /* kisspng-arrow-symbol-computer-icons-clip-art-back-5abde9b67c3793.6755743315223955745088.png */; };
+		C857A01E2804998300053143 /* arrowq.png in Resources */ = {isa = PBXBuildFile; fileRef = C857A01D2804998300053143 /* arrowq.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		C857A00C28048C5100053143 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		C857A00D28048C5100053143 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		C857A0132804923D00053143 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C857A0182804990E00053143 /* kisspng-arrow-symbol-computer-icons-clip-art-back-5abde9b67c3793.6755743315223955745088.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kisspng-arrow-symbol-computer-icons-clip-art-back-5abde9b67c3793.6755743315223955745088.png"; path = "../../../Downloads/kisspng-arrow-symbol-computer-icons-clip-art-back-5abde9b67c3793.6755743315223955745088.png"; sourceTree = "<group>"; };
+		C857A01D2804998300053143 /* arrowq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrowq.png; path = ../../../Downloads/arrowq.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +186,8 @@
 		C853BE3927FF37DF0020C28F /* Recursos */ = {
 			isa = PBXGroup;
 			children = (
+				C857A01D2804998300053143 /* arrowq.png */,
+				C857A0182804990E00053143 /* kisspng-arrow-symbol-computer-icons-clip-art-back-5abde9b67c3793.6755743315223955745088.png */,
 				C857A0072804898D00053143 /* kisspng-arrow-button-computer-icons-clip-art-left-arrow-5b35cacb096341.9629085015302519790385.png */,
 				C8579FE928009D5000053143 /* IZQ2.png */,
 				C8579FE428009D4400053143 /* DER2.png */,
@@ -312,10 +318,12 @@
 				C853BB8C27FF156E0020C28F /* LaunchScreen.storyboard in Resources */,
 				C853BE4327FF37DF0020C28F /* Flacha_4.png in Resources */,
 				C857A0082804898D00053143 /* kisspng-arrow-button-computer-icons-clip-art-left-arrow-5b35cacb096341.9629085015302519790385.png in Resources */,
+				C857A0192804990E00053143 /* kisspng-arrow-symbol-computer-icons-clip-art-back-5abde9b67c3793.6755743315223955745088.png in Resources */,
 				C853BB8927FF156E0020C28F /* Assets.xcassets in Resources */,
 				C8579FD02800973000053143 /* PEDAL2.png in Resources */,
 				C853BE4127FF37DF0020C28F /* Flecha_1.png in Resources */,
 				C8579FCB2800965100053143 /* PEDAL1.png in Resources */,
+				C857A01E2804998300053143 /* arrowq.png in Resources */,
 				C853BE4827FF3D900020C28F /* pngegg (3).png in Resources */,
 				C853BE4027FF37DF0020C28F /* Flecha_3.png in Resources */,
 				C853BE4227FF37DF0020C28F /* Logo.jpeg in Resources */,
