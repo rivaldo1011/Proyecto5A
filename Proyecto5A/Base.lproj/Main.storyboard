@@ -74,27 +74,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IEB-57-pAu">
-                                <rect key="frame" x="8" y="636" width="399" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IEB-57-pAu">
+                                <rect key="frame" x="10" y="675" width="394" height="128"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4u-S4-cUX">
-                                        <rect key="frame" x="72.666666666666671" y="18" width="62.000000000000014" height="102"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4u-S4-cUX">
+                                        <rect key="frame" x="107" y="13" width="62" height="102"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="62" id="Qrt-sW-whV"/>
                                             <constraint firstAttribute="height" constant="102" id="T2R-ih-3o3"/>
                                         </constraints>
                                         <state key="normal" title="Button" image="PEDAL1.png"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nma-jg-MZL">
-                                        <rect key="frame" x="7.6666666666666643" y="34" width="52" height="86"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nma-jg-MZL">
+                                        <rect key="frame" x="45" y="21" width="52" height="86"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="86" id="Ar8-mn-J8Q"/>
                                             <constraint firstAttribute="width" constant="52" id="x7A-l1-v7Q"/>
                                         </constraints>
                                         <state key="normal" title="Button" image="PEDAL2.png"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCG-LO-qUs">
-                                        <rect key="frame" x="208" y="31" width="81" height="66"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCG-LO-qUs">
+                                        <rect key="frame" x="196" y="31" width="81" height="66"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="66" id="7yq-vy-gfE"/>
                                             <constraint firstAttribute="width" constant="81" id="fqk-Ac-WQl"/>
@@ -103,8 +103,8 @@
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mrs-i9-Dgx">
-                                        <rect key="frame" x="298" y="31" width="81" height="66"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mrs-i9-Dgx">
+                                        <rect key="frame" x="287" y="31" width="81" height="66"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="81" id="5EX-WB-ySq"/>
                                             <constraint firstAttribute="height" constant="66" id="eju-6w-oHt"/>
@@ -113,13 +113,30 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="jCG-LO-qUs" firstAttribute="centerY" secondItem="IEB-57-pAu" secondAttribute="centerY" id="02r-yl-YlP"/>
+                                    <constraint firstItem="mrs-i9-Dgx" firstAttribute="centerY" secondItem="IEB-57-pAu" secondAttribute="centerY" id="1lR-rQ-jsa"/>
+                                    <constraint firstItem="jCG-LO-qUs" firstAttribute="width" secondItem="IEB-57-pAu" secondAttribute="height" multiplier="81:128" id="DC2-3x-QON"/>
+                                    <constraint firstItem="mrs-i9-Dgx" firstAttribute="leading" secondItem="jCG-LO-qUs" secondAttribute="trailing" constant="10" id="FrU-hb-8Ls"/>
+                                    <constraint firstItem="J4u-S4-cUX" firstAttribute="centerX" secondItem="IEB-57-pAu" secondAttribute="centerX" multiplier="0.7" id="LUX-sb-Tdv"/>
+                                    <constraint firstItem="jCG-LO-qUs" firstAttribute="centerX" secondItem="IEB-57-pAu" secondAttribute="centerX" multiplier="1.2" id="Prw-hW-tqO"/>
+                                    <constraint firstItem="J4u-S4-cUX" firstAttribute="leading" secondItem="nma-jg-MZL" secondAttribute="trailing" constant="10" id="Qrl-IQ-OMP"/>
+                                    <constraint firstItem="mrs-i9-Dgx" firstAttribute="width" secondItem="IEB-57-pAu" secondAttribute="height" multiplier="81:128" id="gjp-hg-KkH"/>
+                                    <constraint firstItem="nma-jg-MZL" firstAttribute="centerY" secondItem="IEB-57-pAu" secondAttribute="centerY" id="kPA-Sk-Eea"/>
+                                    <constraint firstItem="nma-jg-MZL" firstAttribute="width" secondItem="IEB-57-pAu" secondAttribute="height" multiplier="13:32" id="kXK-UP-6As"/>
+                                    <constraint firstItem="J4u-S4-cUX" firstAttribute="centerY" secondItem="IEB-57-pAu" secondAttribute="centerY" id="m1N-oY-4CM"/>
+                                    <constraint firstAttribute="height" constant="128" id="n20-nn-K1N"/>
+                                    <constraint firstItem="J4u-S4-cUX" firstAttribute="width" secondItem="IEB-57-pAu" secondAttribute="height" multiplier="31:64" id="xOa-Jv-Vc0"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="h39-5i-wki"/>
                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                         <constraints>
+                            <constraint firstItem="h39-5i-wki" firstAttribute="bottom" secondItem="IEB-57-pAu" secondAttribute="bottom" constant="10" id="FRH-DD-Y7A"/>
                             <constraint firstItem="uDN-GF-9Td" firstAttribute="centerX" secondItem="L6y-6K-yZS" secondAttribute="centerX" id="PAD-DJ-GAJ"/>
-                            <constraint firstItem="h39-5i-wki" firstAttribute="bottom" secondItem="IEB-57-pAu" secondAttribute="bottom" constant="5" id="c1E-ES-j5r"/>
+                            <constraint firstItem="IEB-57-pAu" firstAttribute="leading" secondItem="h39-5i-wki" secondAttribute="leading" constant="10" id="esl-za-Hwy"/>
+                            <constraint firstItem="h39-5i-wki" firstAttribute="trailing" secondItem="IEB-57-pAu" secondAttribute="trailing" constant="10" id="fnC-5C-mbC"/>
                             <constraint firstItem="uDN-GF-9Td" firstAttribute="top" secondItem="h39-5i-wki" secondAttribute="top" id="pR0-7Y-bTB"/>
                         </constraints>
                     </view>
