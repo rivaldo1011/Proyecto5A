@@ -33,6 +33,7 @@
 		E83CC9142805C000001C3CD5 /* PEDAL2.png in Resources */ = {isa = PBXBuildFile; fileRef = E83CC9092805C000001C3CD5 /* PEDAL2.png */; };
 		E83CC9152805C000001C3CD5 /* DER2.png in Resources */ = {isa = PBXBuildFile; fileRef = E83CC90A2805C000001C3CD5 /* DER2.png */; };
 		E83CC9162805C000001C3CD5 /* PEDAL1.png in Resources */ = {isa = PBXBuildFile; fileRef = E83CC90B2805C000001C3CD5 /* PEDAL1.png */; };
+		E8A9117C2805E89900B7B240 /* DatosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A9117B2805E89900B7B240 /* DatosViewController.m */; };
 		E8AEAB362805C54F0059E120 /* flecha_izq.png in Resources */ = {isa = PBXBuildFile; fileRef = E8AEAB352805C54F0059E120 /* flecha_izq.png */; };
 		E8AEAB3E2805C59E0059E120 /* flecha_der.png in Resources */ = {isa = PBXBuildFile; fileRef = E8AEAB3D2805C59E0059E120 /* flecha_der.png */; };
 /* End PBXBuildFile section */
@@ -94,6 +95,8 @@
 		E83CC9092805C000001C3CD5 /* PEDAL2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PEDAL2.png; sourceTree = "<group>"; };
 		E83CC90A2805C000001C3CD5 /* DER2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DER2.png; sourceTree = "<group>"; };
 		E83CC90B2805C000001C3CD5 /* PEDAL1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PEDAL1.png; sourceTree = "<group>"; };
+		E8A9117A2805E89900B7B240 /* DatosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatosViewController.h; sourceTree = "<group>"; };
+		E8A9117B2805E89900B7B240 /* DatosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatosViewController.m; sourceTree = "<group>"; };
 		E8AEAB352805C54F0059E120 /* flecha_izq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flecha_izq.png; sourceTree = "<group>"; };
 		E8AEAB3D2805C59E0059E120 /* flecha_der.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flecha_der.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,6 +171,8 @@
 				C853BB8A27FF156E0020C28F /* LaunchScreen.storyboard */,
 				C853BB8D27FF156E0020C28F /* Info.plist */,
 				C853BB8E27FF156E0020C28F /* main.m */,
+				E8A9117A2805E89900B7B240 /* DatosViewController.h */,
+				E8A9117B2805E89900B7B240 /* DatosViewController.m */,
 			);
 			path = Proyecto5A;
 			sourceTree = "<group>";
@@ -409,6 +414,7 @@
 				C853BB8F27FF156E0020C28F /* main.m in Sources */,
 				C857A0402805E36E00053143 /* Datos.m in Sources */,
 				C853BB8127FF15670020C28F /* SceneDelegate.m in Sources */,
+				E8A9117C2805E89900B7B240 /* DatosViewController.m in Sources */,
 				C8579FF028009F7000053143 /* MovimientoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
