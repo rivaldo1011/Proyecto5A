@@ -47,29 +47,14 @@
                     <view key="view" contentMode="scaleToFill" id="ac8-2r-hyy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dcq-pH-WwS">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
-                                <viewLayoutGuide key="contentLayoutGuide" id="bPm-wZ-l6d"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="0Xj-qF-LQQ"/>
-                            </scrollView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="aVv-fm-fCi"/>
-<<<<<<< Updated upstream
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
-=======
-                        <color key="backgroundColor" systemColor="systemGreenColor"/>
-                        <constraints>
-                            <constraint firstItem="Dcq-pH-WwS" firstAttribute="centerX" secondItem="ac8-2r-hyy" secondAttribute="centerX" id="PNy-Ps-KMB"/>
-                            <constraint firstItem="Dcq-pH-WwS" firstAttribute="width" secondItem="ac8-2r-hyy" secondAttribute="width" id="bsd-vy-opn"/>
-                        </constraints>
->>>>>>> Stashed changes
                     </view>
                     <tabBarItem key="tabBarItem" title="Datos" image="externaldrive" catalog="system" selectedImage="externaldrive" id="3ES-Su-oqG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rff-IB-Wun" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3302.898550724638" y="415.84821428571428"/>
+            <point key="canvasLocation" x="3303" y="416"/>
         </scene>
         <!--Movimiento-->
         <scene sceneID="YY3-wn-jg8">
@@ -79,7 +64,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-<<<<<<< Updated upstream
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MOVIMIENTO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uDN-GF-9Td">
                                 <rect key="frame" x="138" y="44" width="138" height="30"/>
                                 <constraints>
@@ -145,26 +129,6 @@
                                     <constraint firstItem="J4u-S4-cUX" firstAttribute="width" secondItem="IEB-57-pAu" secondAttribute="height" multiplier="31:64" id="xOa-Jv-Vc0"/>
                                 </constraints>
                             </view>
-=======
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4u-S4-cUX">
-                                <rect key="frame" x="264" y="500" width="91" height="149"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="PEDAL1.png"/>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IZQ2.png" translatesAutoresizingMaskIntoConstraints="NO" id="iLP-8Z-pD1">
-                                <rect key="frame" x="20" y="250" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DER2.png" translatesAutoresizingMaskIntoConstraints="NO" id="j4m-GT-N5a">
-                                <rect key="frame" x="227" y="250" width="142" height="130"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nma-jg-MZL">
-                                <rect key="frame" x="95" y="500" width="91" height="149"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="PEDAL2.png"/>
-                            </button>
->>>>>>> Stashed changes
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="h39-5i-wki"/>
                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
@@ -355,11 +319,6 @@
         </scene>
     </scenes>
     <resources>
-<<<<<<< Updated upstream
-=======
-        <image name="DER2.png" width="28.2841796875" height="31.808956146240234"/>
-        <image name="IZQ2.png" width="30.82029914855957" height="31.808956146240234"/>
->>>>>>> Stashed changes
         <image name="Logo.jpeg" width="500" height="500"/>
         <image name="PEDAL1.png" width="207.75" height="492.75"/>
         <image name="PEDAL2.png" width="261" height="365.25"/>
