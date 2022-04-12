@@ -186,6 +186,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Movimiento" image="gamecontroller" catalog="system" selectedImage="gamecontroller" id="On0-UR-LQK"/>
+                    <connections>
+                        <outlet property="srcSensores" destination="cBd-NH-5Wi" id="33x-hx-eeL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rbi-jL-PON" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -205,7 +208,6 @@
                                     <constraint firstAttribute="width" constant="40" id="NOr-2f-gIJ"/>
                                     <constraint firstAttribute="height" constant="40" id="scE-ve-KdM"/>
                                 </constraints>
-                                <state key="normal" image="IZQ2.png"/>
                                 <connections>
                                     <action selector="btnRegresar" destination="Qtc-dl-rBc" eventType="touchUpInside" id="j8S-RD-8aq"/>
                                 </connections>
@@ -231,7 +233,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="wvkPagina" destination="59Z-d8-YxD" id="u81-cl-QB6"/>
+                        <outlet property="mvkRegistrar" destination="59Z-d8-YxD" id="62c-IT-84q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kD5-gI-shH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -364,7 +366,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="IZQ2.png" width="30.82029914855957" height="31.808956146240234"/>
         <image name="Logo.jpeg" width="500" height="500"/>
         <image name="PEDAL1.png" width="207.75" height="492.75"/>
         <image name="PEDAL2.png" width="261" height="365.25"/>

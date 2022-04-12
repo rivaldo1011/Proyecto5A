@@ -37,7 +37,7 @@
 {
     WebViewController * vc = segue.destinationViewController;
     
-    vc.urlWeb = webs[indice];
+    //vc.urlWeb = webs[indice];
 }
 
 @end

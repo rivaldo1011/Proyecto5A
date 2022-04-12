@@ -17,9 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    self.wvkPagina.navigationDelegate = self;
-    [self.wvkPagina loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.urlWeb]]];
+    [self.mvkRegistrar loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://github.com/login"]]];
 }
 
 /*

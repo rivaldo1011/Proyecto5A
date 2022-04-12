@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface WebViewController : UIViewController <WKNavigationDelegate>
 @property (nonatomic, strong) NSString * urlWeb;
-@property (weak, nonatomic) IBOutlet WKWebView *wvkPagina;
+@property (weak, nonatomic) IBOutlet WKWebView *mvkRegistrar;
 
 - (IBAction)btnRegresar;
 
