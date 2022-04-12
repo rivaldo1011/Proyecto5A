@@ -64,27 +64,63 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nma-jg-MZL">
-                                <rect key="frame" x="68" y="438" width="91" height="149"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nma-jg-MZL">
+                                <rect key="frame" x="100" y="301" width="91" height="149"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="91" id="2Lb-nd-sRK"/>
+                                    <constraint firstAttribute="height" constant="149" id="Zt2-h8-E1h"/>
+                                </constraints>
                                 <state key="normal" title="Button" image="PEDAL2.png"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4u-S4-cUX">
-                                <rect key="frame" x="228" y="438" width="91" height="149"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4u-S4-cUX">
+                                <rect key="frame" x="224" y="302" width="91" height="149"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="149" id="S0o-kL-9hg"/>
+                                    <constraint firstAttribute="width" constant="91" id="nYC-Cd-5pl"/>
+                                </constraints>
                                 <state key="normal" title="Button" image="PEDAL1.png"/>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DER2.png" translatesAutoresizingMaskIntoConstraints="NO" id="iLP-8Z-pD1">
-                                <rect key="frame" x="228" y="262" width="175" height="122"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IZQ2.png" translatesAutoresizingMaskIntoConstraints="NO" id="j4m-GT-N5a">
-                                <rect key="frame" x="20" y="262" width="175" height="122"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MOVIMIENTO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uDN-GF-9Td">
+                                <rect key="frame" x="138" y="44" width="138" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="HNU-c3-Wdd"/>
+                                    <constraint firstAttribute="width" constant="138" id="Yfp-ld-8fY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCG-LO-qUs">
+                                <rect key="frame" x="20" y="146" width="140" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="114" id="Eyh-ip-A3m"/>
+                                    <constraint firstAttribute="width" constant="140" id="rM9-MS-b0g"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="arrowq.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mrs-i9-Dgx">
+                                <rect key="frame" x="254" y="146" width="140" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="M7T-bm-blu"/>
+                                    <constraint firstAttribute="height" constant="114" id="vMj-VE-PPQ"/>
+                                </constraints>
+                                <state key="normal" image="kisspng-arrow-symbol-computer-icons-clip-art-back-5abde9b67c3793.6755743315223955745088.png"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="h39-5i-wki"/>
                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                        <constraints>
+                            <constraint firstItem="mrs-i9-Dgx" firstAttribute="top" secondItem="uDN-GF-9Td" secondAttribute="bottom" constant="72" id="5kV-45-ewV"/>
+                            <constraint firstItem="uDN-GF-9Td" firstAttribute="centerX" secondItem="L6y-6K-yZS" secondAttribute="centerX" id="PAD-DJ-GAJ"/>
+                            <constraint firstItem="jCG-LO-qUs" firstAttribute="top" secondItem="uDN-GF-9Td" secondAttribute="bottom" constant="72" id="Pjc-P4-9iB"/>
+                            <constraint firstItem="h39-5i-wki" firstAttribute="trailing" secondItem="mrs-i9-Dgx" secondAttribute="trailing" constant="20" id="Rpq-Sj-hP5"/>
+                            <constraint firstItem="nma-jg-MZL" firstAttribute="leading" secondItem="h39-5i-wki" secondAttribute="leading" constant="100" id="Stc-7C-Wpo"/>
+                            <constraint firstItem="nma-jg-MZL" firstAttribute="top" secondItem="mrs-i9-Dgx" secondAttribute="bottom" constant="41" id="WTb-9s-hSg"/>
+                            <constraint firstItem="jCG-LO-qUs" firstAttribute="leading" secondItem="h39-5i-wki" secondAttribute="leading" constant="20" id="apr-qg-meb"/>
+                            <constraint firstItem="J4u-S4-cUX" firstAttribute="top" secondItem="jCG-LO-qUs" secondAttribute="bottom" constant="42" id="box-a5-cwR"/>
+                            <constraint firstItem="uDN-GF-9Td" firstAttribute="top" secondItem="h39-5i-wki" secondAttribute="top" id="pR0-7Y-bTB"/>
+                            <constraint firstItem="h39-5i-wki" firstAttribute="trailing" secondItem="J4u-S4-cUX" secondAttribute="trailing" constant="99" id="tAq-iw-p2I"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Movimiento" image="gamecontroller" catalog="system" selectedImage="gamecontroller" id="On0-UR-LQK"/>
                 </viewController>
@@ -221,6 +257,14 @@
                                     <segue destination="Qtc-dl-rBc" kind="presentation" id="2le-XF-BIG"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOs-Cz-xXl">
+                                <rect key="frame" x="184" y="555" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="pfL-hP-9qE" kind="presentation" id="i2G-L4-d14"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5Z8-29-363"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -257,14 +301,14 @@
         </scene>
     </scenes>
     <resources>
-        <image name="DER2.png" width="28.2841796875" height="31.808956146240234"/>
-        <image name="IZQ2.png" width="30.82029914855957" height="31.808956146240234"/>
         <image name="Logo.jpeg" width="500" height="500"/>
         <image name="PEDAL1.png" width="207.75" height="492.75"/>
         <image name="PEDAL2.png" width="261" height="365.25"/>
+        <image name="arrowq.png" width="512" height="512"/>
         <image name="externaldrive" catalog="system" width="128" height="88"/>
         <image name="gamecontroller" catalog="system" width="128" height="80"/>
         <image name="kisspng-arrow-button-computer-icons-clip-art-left-arrow-5b35cacb096341.9629085015302519790385.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="kisspng-arrow-symbol-computer-icons-clip-art-back-5abde9b67c3793.6755743315223955745088.png" width="512" height="512"/>
         <image name="pngegg (3).png" width="130.26148986816406" height="130.26148986816406"/>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
