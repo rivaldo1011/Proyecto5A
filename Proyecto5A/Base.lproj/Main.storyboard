@@ -74,8 +74,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IEB-57-pAu">
-                                <rect key="frame" x="0.0" y="685" width="414" height="128"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IEB-57-pAu">
+                                <rect key="frame" x="8" y="636" width="399" height="128"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4u-S4-cUX">
                                         <rect key="frame" x="72.666666666666671" y="18" width="62.000000000000014" height="102"/>
@@ -86,7 +86,7 @@
                                         <state key="normal" title="Button" image="PEDAL1.png"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nma-jg-MZL">
-                                        <rect key="frame" x="7.6666666666666572" y="34" width="52" height="86"/>
+                                        <rect key="frame" x="7.6666666666666643" y="34" width="52" height="86"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="86" id="Ar8-mn-J8Q"/>
                                             <constraint firstAttribute="width" constant="52" id="x7A-l1-v7Q"/>
@@ -113,29 +113,14 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstItem="J4u-S4-cUX" firstAttribute="centerX" secondItem="IEB-57-pAu" secondAttribute="centerX" multiplier="0.5" id="ESq-Yu-g0e"/>
-                                    <constraint firstItem="J4u-S4-cUX" firstAttribute="leading" secondItem="nma-jg-MZL" secondAttribute="trailing" constant="12.67" id="K1m-f7-CBg"/>
-                                    <constraint firstItem="jCG-LO-qUs" firstAttribute="width" secondItem="IEB-57-pAu" secondAttribute="height" multiplier="81:128" id="P8B-Sx-cex"/>
-                                    <constraint firstItem="nma-jg-MZL" firstAttribute="width" secondItem="IEB-57-pAu" secondAttribute="height" multiplier="13:32" id="Poc-yJ-9Mu"/>
-                                    <constraint firstAttribute="height" constant="128" id="XLO-bR-sCR"/>
-                                    <constraint firstItem="mrs-i9-Dgx" firstAttribute="width" secondItem="IEB-57-pAu" secondAttribute="height" multiplier="81:128" id="ak0-XP-v0L"/>
-                                    <constraint firstItem="J4u-S4-cUX" firstAttribute="width" secondItem="IEB-57-pAu" secondAttribute="height" multiplier="31:64" id="sGc-MQ-GWf"/>
-                                    <constraint firstItem="jCG-LO-qUs" firstAttribute="centerX" secondItem="IEB-57-pAu" secondAttribute="centerX" multiplier="1.2" id="tSa-Z8-Asd"/>
-                                    <constraint firstItem="mrs-i9-Dgx" firstAttribute="leading" secondItem="jCG-LO-qUs" secondAttribute="trailing" constant="9" id="y8q-rH-oUS"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="h39-5i-wki"/>
                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                         <constraints>
-                            <constraint firstItem="IEB-57-pAu" firstAttribute="leading" secondItem="h39-5i-wki" secondAttribute="leading" id="BqK-cF-VKO"/>
                             <constraint firstItem="uDN-GF-9Td" firstAttribute="centerX" secondItem="L6y-6K-yZS" secondAttribute="centerX" id="PAD-DJ-GAJ"/>
-                            <constraint firstItem="IEB-57-pAu" firstAttribute="width" secondItem="L6y-6K-yZS" secondAttribute="height" multiplier="207:448" id="XV1-fd-yms"/>
-                            <constraint firstItem="IEB-57-pAu" firstAttribute="bottom" secondItem="h39-5i-wki" secondAttribute="bottom" id="mO4-2V-Ugq"/>
+                            <constraint firstItem="h39-5i-wki" firstAttribute="bottom" secondItem="IEB-57-pAu" secondAttribute="bottom" constant="5" id="c1E-ES-j5r"/>
                             <constraint firstItem="uDN-GF-9Td" firstAttribute="top" secondItem="h39-5i-wki" secondAttribute="top" id="pR0-7Y-bTB"/>
-                            <constraint firstItem="IEB-57-pAu" firstAttribute="bottom" secondItem="h39-5i-wki" secondAttribute="bottom" id="sdb-cz-3PA"/>
-                            <constraint firstItem="IEB-57-pAu" firstAttribute="trailing" secondItem="h39-5i-wki" secondAttribute="trailing" id="uvN-QN-4GB"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Movimiento" image="gamecontroller" catalog="system" selectedImage="gamecontroller" id="On0-UR-LQK"/>
@@ -274,7 +259,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOs-Cz-xXl">
-                                <rect key="frame" x="184" y="555" width="46" height="30"/>
+                                <rect key="frame" x="184" y="189" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
