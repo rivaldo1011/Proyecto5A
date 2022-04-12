@@ -108,6 +108,9 @@
                                             <constraint firstAttribute="height" constant="102" id="T2R-ih-3o3"/>
                                         </constraints>
                                         <state key="normal" title="Button" image="PEDAL1.png"/>
+                                        <connections>
+                                            <action selector="btnAvansar:" destination="YdN-GP-7Yl" eventType="touchDown" id="XhW-ee-qaT"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nma-jg-MZL">
                                         <rect key="frame" x="45" y="21" width="52" height="86"/>
@@ -116,6 +119,9 @@
                                             <constraint firstAttribute="width" constant="52" id="x7A-l1-v7Q"/>
                                         </constraints>
                                         <state key="normal" title="Button" image="PEDAL2.png"/>
+                                        <connections>
+                                            <action selector="btnReversa:" destination="YdN-GP-7Yl" eventType="touchDown" id="PFO-54-Qmf"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCG-LO-qUs">
                                         <rect key="frame" x="196" y="31" width="81" height="66"/>
@@ -126,6 +132,9 @@
                                         <state key="normal" image="flecha_izq.png">
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
                                         </state>
+                                        <connections>
+                                            <action selector="btnIZQ:" destination="YdN-GP-7Yl" eventType="touchDown" id="Usz-HY-oia"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mrs-i9-Dgx">
                                         <rect key="frame" x="287" y="31" width="81" height="66"/>
@@ -134,6 +143,9 @@
                                             <constraint firstAttribute="height" constant="66" id="eju-6w-oHt"/>
                                         </constraints>
                                         <state key="normal" image="flecha_der.png"/>
+                                        <connections>
+                                            <action selector="btnDER:" destination="YdN-GP-7Yl" eventType="touchDown" id="2sh-ac-Mfr"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>

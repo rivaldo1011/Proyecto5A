@@ -30,4 +30,15 @@
 
 - (IBAction)btnRegresar:(id)sender {
 }
+- (IBAction)btnDER:(id)sender {
+}
+
+- (IBAction)btnIZQ:(id)sender {
+}
+
+- (IBAction)btnReversa:(id)sender {
+}
+
+- (IBAction)btnAvansar:(id)sender {
+}
 @end

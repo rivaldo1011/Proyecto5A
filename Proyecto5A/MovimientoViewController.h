@@ -10,6 +10,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MovimientoViewController : UIViewController
+- (IBAction)btnAvansar:(id)sender;
+- (IBAction)btnReversa:(id)sender;
+- (IBAction)btnIZQ:(id)sender;
+- (IBAction)btnDER:(id)sender;
 
 @end
 
