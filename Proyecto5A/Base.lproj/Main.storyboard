@@ -64,22 +64,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nma-jg-MZL">
-                                <rect key="frame" x="100" y="301" width="91" height="149"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="91" id="2Lb-nd-sRK"/>
-                                    <constraint firstAttribute="height" constant="149" id="Zt2-h8-E1h"/>
-                                </constraints>
-                                <state key="normal" title="Button" image="PEDAL2.png"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4u-S4-cUX">
-                                <rect key="frame" x="224" y="302" width="91" height="149"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="149" id="S0o-kL-9hg"/>
-                                    <constraint firstAttribute="width" constant="91" id="nYC-Cd-5pl"/>
-                                </constraints>
-                                <state key="normal" title="Button" image="PEDAL1.png"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MOVIMIENTO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uDN-GF-9Td">
                                 <rect key="frame" x="138" y="44" width="138" height="30"/>
                                 <constraints>
@@ -90,36 +74,68 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCG-LO-qUs">
-                                <rect key="frame" x="20" y="146" width="140" height="114"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IEB-57-pAu">
+                                <rect key="frame" x="0.0" y="685" width="414" height="128"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4u-S4-cUX">
+                                        <rect key="frame" x="72.666666666666671" y="18" width="62.000000000000014" height="102"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="62" id="Qrt-sW-whV"/>
+                                            <constraint firstAttribute="height" constant="102" id="T2R-ih-3o3"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="PEDAL1.png"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nma-jg-MZL">
+                                        <rect key="frame" x="7.6666666666666572" y="34" width="52" height="86"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="86" id="Ar8-mn-J8Q"/>
+                                            <constraint firstAttribute="width" constant="52" id="x7A-l1-v7Q"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="PEDAL2.png"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCG-LO-qUs">
+                                        <rect key="frame" x="208" y="31" width="81" height="66"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="66" id="7yq-vy-gfE"/>
+                                            <constraint firstAttribute="width" constant="81" id="fqk-Ac-WQl"/>
+                                        </constraints>
+                                        <state key="normal" image="flecha_izq.png">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mrs-i9-Dgx">
+                                        <rect key="frame" x="298" y="31" width="81" height="66"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="81" id="5EX-WB-ySq"/>
+                                            <constraint firstAttribute="height" constant="66" id="eju-6w-oHt"/>
+                                        </constraints>
+                                        <state key="normal" image="flecha_der.png"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="114" id="Eyh-ip-A3m"/>
-                                    <constraint firstAttribute="width" constant="140" id="rM9-MS-b0g"/>
+                                    <constraint firstItem="J4u-S4-cUX" firstAttribute="centerX" secondItem="IEB-57-pAu" secondAttribute="centerX" multiplier="0.5" id="ESq-Yu-g0e"/>
+                                    <constraint firstItem="J4u-S4-cUX" firstAttribute="leading" secondItem="nma-jg-MZL" secondAttribute="trailing" constant="12.67" id="K1m-f7-CBg"/>
+                                    <constraint firstItem="jCG-LO-qUs" firstAttribute="width" secondItem="IEB-57-pAu" secondAttribute="height" multiplier="81:128" id="P8B-Sx-cex"/>
+                                    <constraint firstItem="nma-jg-MZL" firstAttribute="width" secondItem="IEB-57-pAu" secondAttribute="height" multiplier="13:32" id="Poc-yJ-9Mu"/>
+                                    <constraint firstAttribute="height" constant="128" id="XLO-bR-sCR"/>
+                                    <constraint firstItem="mrs-i9-Dgx" firstAttribute="width" secondItem="IEB-57-pAu" secondAttribute="height" multiplier="81:128" id="ak0-XP-v0L"/>
+                                    <constraint firstItem="J4u-S4-cUX" firstAttribute="width" secondItem="IEB-57-pAu" secondAttribute="height" multiplier="31:64" id="sGc-MQ-GWf"/>
+                                    <constraint firstItem="jCG-LO-qUs" firstAttribute="centerX" secondItem="IEB-57-pAu" secondAttribute="centerX" multiplier="1.2" id="tSa-Z8-Asd"/>
+                                    <constraint firstItem="mrs-i9-Dgx" firstAttribute="leading" secondItem="jCG-LO-qUs" secondAttribute="trailing" constant="9" id="y8q-rH-oUS"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="arrowq.png"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mrs-i9-Dgx">
-                                <rect key="frame" x="254" y="146" width="140" height="114"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="140" id="M7T-bm-blu"/>
-                                    <constraint firstAttribute="height" constant="114" id="vMj-VE-PPQ"/>
-                                </constraints>
-                                <state key="normal" image="kisspng-arrow-symbol-computer-icons-clip-art-back-5abde9b67c3793.6755743315223955745088.png"/>
-                            </button>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="h39-5i-wki"/>
                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                         <constraints>
-                            <constraint firstItem="mrs-i9-Dgx" firstAttribute="top" secondItem="uDN-GF-9Td" secondAttribute="bottom" constant="72" id="5kV-45-ewV"/>
+                            <constraint firstItem="IEB-57-pAu" firstAttribute="leading" secondItem="h39-5i-wki" secondAttribute="leading" id="BqK-cF-VKO"/>
                             <constraint firstItem="uDN-GF-9Td" firstAttribute="centerX" secondItem="L6y-6K-yZS" secondAttribute="centerX" id="PAD-DJ-GAJ"/>
-                            <constraint firstItem="jCG-LO-qUs" firstAttribute="top" secondItem="uDN-GF-9Td" secondAttribute="bottom" constant="72" id="Pjc-P4-9iB"/>
-                            <constraint firstItem="h39-5i-wki" firstAttribute="trailing" secondItem="mrs-i9-Dgx" secondAttribute="trailing" constant="20" id="Rpq-Sj-hP5"/>
-                            <constraint firstItem="nma-jg-MZL" firstAttribute="leading" secondItem="h39-5i-wki" secondAttribute="leading" constant="100" id="Stc-7C-Wpo"/>
-                            <constraint firstItem="nma-jg-MZL" firstAttribute="top" secondItem="mrs-i9-Dgx" secondAttribute="bottom" constant="41" id="WTb-9s-hSg"/>
-                            <constraint firstItem="jCG-LO-qUs" firstAttribute="leading" secondItem="h39-5i-wki" secondAttribute="leading" constant="20" id="apr-qg-meb"/>
-                            <constraint firstItem="J4u-S4-cUX" firstAttribute="top" secondItem="jCG-LO-qUs" secondAttribute="bottom" constant="42" id="box-a5-cwR"/>
+                            <constraint firstItem="IEB-57-pAu" firstAttribute="width" secondItem="L6y-6K-yZS" secondAttribute="height" multiplier="207:448" id="XV1-fd-yms"/>
+                            <constraint firstItem="IEB-57-pAu" firstAttribute="bottom" secondItem="h39-5i-wki" secondAttribute="bottom" id="mO4-2V-Ugq"/>
                             <constraint firstItem="uDN-GF-9Td" firstAttribute="top" secondItem="h39-5i-wki" secondAttribute="top" id="pR0-7Y-bTB"/>
-                            <constraint firstItem="h39-5i-wki" firstAttribute="trailing" secondItem="J4u-S4-cUX" secondAttribute="trailing" constant="99" id="tAq-iw-p2I"/>
+                            <constraint firstItem="IEB-57-pAu" firstAttribute="bottom" secondItem="h39-5i-wki" secondAttribute="bottom" id="sdb-cz-3PA"/>
+                            <constraint firstItem="IEB-57-pAu" firstAttribute="trailing" secondItem="h39-5i-wki" secondAttribute="trailing" id="uvN-QN-4GB"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Movimiento" image="gamecontroller" catalog="system" selectedImage="gamecontroller" id="On0-UR-LQK"/>
@@ -128,10 +144,10 @@
             </objects>
             <point key="canvasLocation" x="3302.898550724638" y="-190.17857142857142"/>
         </scene>
-        <!--Web View Controller-->
+        <!--REGISTRARSE-->
         <scene sceneID="l49-wf-UMw">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Qtc-dl-rBc" customClass="WebViewController" sceneMemberID="viewController">
+                <viewController title="REGISTRARSE" modalPresentationStyle="fullScreen" id="Qtc-dl-rBc" customClass="WebViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yNc-Gf-JxT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -175,10 +191,10 @@
             </objects>
             <point key="canvasLocation" x="1228.985507246377" y="-563.16964285714278"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--INICIO-->
         <scene sceneID="xQd-zb-AgS">
             <objects>
-                <tabBarController modalPresentationStyle="fullScreen" id="pfL-hP-9qE" sceneMemberID="viewController">
+                <tabBarController title="INICIO" modalPresentationStyle="fullScreen" id="pfL-hP-9qE" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="c4m-y6-1bH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -194,10 +210,10 @@
             </objects>
             <point key="canvasLocation" x="2404" y="134"/>
         </scene>
-        <!--View Controller-->
+        <!--LOGIN-->
         <scene sceneID="Mgx-V1-aba">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Ayo-oU-YRJ" sceneMemberID="viewController">
+                <viewController title="LOGIN" modalPresentationStyle="fullScreen" id="Ayo-oU-YRJ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2rk-nm-81M">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -304,11 +320,11 @@
         <image name="Logo.jpeg" width="500" height="500"/>
         <image name="PEDAL1.png" width="207.75" height="492.75"/>
         <image name="PEDAL2.png" width="261" height="365.25"/>
-        <image name="arrowq.png" width="512" height="512"/>
         <image name="externaldrive" catalog="system" width="128" height="88"/>
+        <image name="flecha_der.png" width="184.32000732421875" height="142.32000732421875"/>
+        <image name="flecha_izq.png" width="184.32000732421875" height="142.32000732421875"/>
         <image name="gamecontroller" catalog="system" width="128" height="80"/>
         <image name="kisspng-arrow-button-computer-icons-clip-art-left-arrow-5b35cacb096341.9629085015302519790385.png" width="409.60000610351562" height="409.60000610351562"/>
-        <image name="kisspng-arrow-symbol-computer-icons-clip-art-back-5abde9b67c3793.6755743315223955745088.png" width="512" height="512"/>
         <image name="pngegg (3).png" width="130.26148986816406" height="130.26148986816406"/>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
