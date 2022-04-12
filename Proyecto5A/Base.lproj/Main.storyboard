@@ -47,19 +47,43 @@
                     <view key="view" contentMode="scaleToFill" id="ac8-2r-hyy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DATOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f8w-mV-p2y">
+                                <rect key="frame" x="171.5" y="64" width="71" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ooX-5W-uVc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WeI-ep-4ge">
+                                <rect key="frame" x="20" y="91" width="374" height="704"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="ilk-Xr-Awn"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="kDT-zq-h24"/>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="aVv-fm-fCi"/>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="f8w-mV-p2y" firstAttribute="top" secondItem="aVv-fm-fCi" secondAttribute="top" constant="20" id="0oM-NN-m3A"/>
+                            <constraint firstItem="WeI-ep-4ge" firstAttribute="top" secondItem="aVv-fm-fCi" secondAttribute="top" constant="10" id="0xe-Gb-iad"/>
+                            <constraint firstItem="aVv-fm-fCi" firstAttribute="bottom" secondItem="WeI-ep-4ge" secondAttribute="bottom" constant="10" id="ZqX-GD-T80"/>
+                            <constraint firstItem="aVv-fm-fCi" firstAttribute="trailing" secondItem="WeI-ep-4ge" secondAttribute="trailing" constant="10" id="lbu-Bu-wKu"/>
+                            <constraint firstItem="f8w-mV-p2y" firstAttribute="centerX" secondItem="ac8-2r-hyy" secondAttribute="centerX" id="nGZ-Rc-3zd"/>
+                            <constraint firstItem="WeI-ep-4ge" firstAttribute="leading" secondItem="aVv-fm-fCi" secondAttribute="leading" constant="10" id="vzO-7h-Krk"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Datos" image="externaldrive" catalog="system" selectedImage="externaldrive" id="3ES-Su-oqG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rff-IB-Wun" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3303" y="416"/>
+            <point key="canvasLocation" x="3302.898550724638" y="464.73214285714283"/>
         </scene>
         <!--Movimiento-->
         <scene sceneID="YY3-wn-jg8">
             <objects>
-                <viewController id="YdN-GP-7Yl" sceneMemberID="viewController">
+                <viewController id="YdN-GP-7Yl" customClass="MovimientoViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L6y-6K-yZS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -129,15 +153,24 @@
                                     <constraint firstItem="J4u-S4-cUX" firstAttribute="width" secondItem="IEB-57-pAu" secondAttribute="height" multiplier="31:64" id="xOa-Jv-Vc0"/>
                                 </constraints>
                             </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cBd-NH-5Wi">
+                                <rect key="frame" x="20" y="82" width="374" height="585"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="yQD-rk-X82"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="cjQ-1D-9Y4"/>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="h39-5i-wki"/>
                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                         <constraints>
+                            <constraint firstItem="cBd-NH-5Wi" firstAttribute="leading" secondItem="h39-5i-wki" secondAttribute="leading" constant="10" id="4Kl-WQ-CrZ"/>
                             <constraint firstItem="h39-5i-wki" firstAttribute="bottom" secondItem="IEB-57-pAu" secondAttribute="bottom" constant="10" id="FRH-DD-Y7A"/>
+                            <constraint firstItem="IEB-57-pAu" firstAttribute="top" secondItem="cBd-NH-5Wi" secondAttribute="bottom" constant="10" id="HeY-fa-W8x"/>
                             <constraint firstItem="uDN-GF-9Td" firstAttribute="centerX" secondItem="L6y-6K-yZS" secondAttribute="centerX" id="PAD-DJ-GAJ"/>
+                            <constraint firstItem="h39-5i-wki" firstAttribute="trailing" secondItem="cBd-NH-5Wi" secondAttribute="trailing" constant="10" id="TnL-vG-T3O"/>
                             <constraint firstItem="IEB-57-pAu" firstAttribute="leading" secondItem="h39-5i-wki" secondAttribute="leading" constant="10" id="esl-za-Hwy"/>
                             <constraint firstItem="h39-5i-wki" firstAttribute="trailing" secondItem="IEB-57-pAu" secondAttribute="trailing" constant="10" id="fnC-5C-mbC"/>
                             <constraint firstItem="uDN-GF-9Td" firstAttribute="top" secondItem="h39-5i-wki" secondAttribute="top" id="pR0-7Y-bTB"/>
+                            <constraint firstItem="cBd-NH-5Wi" firstAttribute="top" secondItem="uDN-GF-9Td" secondAttribute="bottom" constant="10" id="yYl-pk-rSt"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Movimiento" image="gamecontroller" catalog="system" selectedImage="gamecontroller" id="On0-UR-LQK"/>
@@ -160,7 +193,7 @@
                                     <constraint firstAttribute="width" constant="40" id="NOr-2f-gIJ"/>
                                     <constraint firstAttribute="height" constant="40" id="scE-ve-KdM"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="kisspng-arrow-button-computer-icons-clip-art-left-arrow-5b35cacb096341.9629085015302519790385.png"/>
+                                <state key="normal" image="IZQ2.png"/>
                                 <connections>
                                     <action selector="btnRegresar" destination="Qtc-dl-rBc" eventType="touchUpInside" id="j8S-RD-8aq"/>
                                 </connections>
@@ -327,6 +360,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="IZQ2.png" width="30.82029914855957" height="31.808956146240234"/>
         <image name="Logo.jpeg" width="500" height="500"/>
         <image name="PEDAL1.png" width="207.75" height="492.75"/>
         <image name="PEDAL2.png" width="261" height="365.25"/>
@@ -334,7 +368,6 @@
         <image name="flecha_der.png" width="184.32000732421875" height="142.32000732421875"/>
         <image name="flecha_izq.png" width="184.32000732421875" height="142.32000732421875"/>
         <image name="gamecontroller" catalog="system" width="128" height="80"/>
-        <image name="kisspng-arrow-button-computer-icons-clip-art-left-arrow-5b35cacb096341.9629085015302519790385.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="pngegg (3).png" width="130.26148986816406" height="130.26148986816406"/>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

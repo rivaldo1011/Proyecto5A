@@ -28,4 +28,6 @@
 }
 */
 
+- (IBAction)btnRegresar:(id)sender {
+}
 @end
