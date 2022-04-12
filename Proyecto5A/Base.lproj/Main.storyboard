@@ -160,7 +160,7 @@
                                     <constraint firstAttribute="width" constant="40" id="NOr-2f-gIJ"/>
                                     <constraint firstAttribute="height" constant="40" id="scE-ve-KdM"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="kisspng-arrow-button-computer-icons-clip-art-left-arrow-5b35cacb096341.9629085015302519790385.png"/>
+                                <state key="normal" title="Button" image="kisspng-web-open-font-format-computer-icons-clip-art-previous-button-5ac586f645d355.621575761522894582286.png"/>
                                 <connections>
                                     <action selector="btnRegresar" destination="Qtc-dl-rBc" eventType="touchUpInside" id="j8S-RD-8aq"/>
                                 </connections>
@@ -326,7 +326,7 @@
         <image name="flecha_der.png" width="184.32000732421875" height="142.32000732421875"/>
         <image name="flecha_izq.png" width="184.32000732421875" height="142.32000732421875"/>
         <image name="gamecontroller" catalog="system" width="128" height="80"/>
-        <image name="kisspng-arrow-button-computer-icons-clip-art-left-arrow-5b35cacb096341.9629085015302519790385.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="kisspng-web-open-font-format-computer-icons-clip-art-previous-button-5ac586f645d355.621575761522894582286.png" width="980" height="980"/>
         <image name="pngegg (3).png" width="130.26148986816406" height="130.26148986816406"/>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

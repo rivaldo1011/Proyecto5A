@@ -20,6 +20,8 @@
 		C857A0002804868600053143 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8579FFF2804868600053143 /* LoginViewController.m */; };
 		C857A00E28048C5100053143 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C857A00D28048C5100053143 /* WebViewController.m */; };
 		C857A0142804923E00053143 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C857A0132804923D00053143 /* WebKit.framework */; };
+		C857A03A2805E23400053143 /* kisspng-web-open-font-format-computer-icons-clip-art-previous-button-5ac586f645d355.621575761522894582286.png in Resources */ = {isa = PBXBuildFile; fileRef = C857A0392805E23300053143 /* kisspng-web-open-font-format-computer-icons-clip-art-previous-button-5ac586f645d355.621575761522894582286.png */; };
+		C857A0402805E36E00053143 /* Datos.m in Sources */ = {isa = PBXBuildFile; fileRef = C857A03F2805E36E00053143 /* Datos.m */; };
 		E83CC90C2805C000001C3CD5 /* pngegg (3).png in Resources */ = {isa = PBXBuildFile; fileRef = E83CC8FC2805C000001C3CD5 /* pngegg (3).png */; };
 		E83CC90D2805C000001C3CD5 /* IZQ2.png in Resources */ = {isa = PBXBuildFile; fileRef = E83CC8FD2805C000001C3CD5 /* IZQ2.png */; };
 		E83CC90E2805C000001C3CD5 /* temp1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E83CC9002805C000001C3CD5 /* temp1.jpg */; };
@@ -78,6 +80,9 @@
 		C857A00C28048C5100053143 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		C857A00D28048C5100053143 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		C857A0132804923D00053143 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C857A0392805E23300053143 /* kisspng-web-open-font-format-computer-icons-clip-art-previous-button-5ac586f645d355.621575761522894582286.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kisspng-web-open-font-format-computer-icons-clip-art-previous-button-5ac586f645d355.621575761522894582286.png"; path = "../../../../../Downloads/kisspng-web-open-font-format-computer-icons-clip-art-previous-button-5ac586f645d355.621575761522894582286.png"; sourceTree = "<group>"; };
+		C857A03E2805E36E00053143 /* Datos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Datos.h; sourceTree = "<group>"; };
+		C857A03F2805E36E00053143 /* Datos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Datos.m; sourceTree = "<group>"; };
 		E83CC8FC2805C000001C3CD5 /* pngegg (3).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pngegg (3).png"; sourceTree = "<group>"; };
 		E83CC8FD2805C000001C3CD5 /* IZQ2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IZQ2.png; sourceTree = "<group>"; };
 		E83CC9002805C000001C3CD5 /* temp1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = temp1.jpg; sourceTree = "<group>"; };
@@ -156,6 +161,8 @@
 				C857A00D28048C5100053143 /* WebViewController.m */,
 				C8579FEE28009F7000053143 /* MovimientoViewController.h */,
 				C8579FEF28009F7000053143 /* MovimientoViewController.m */,
+				C857A03E2805E36E00053143 /* Datos.h */,
+				C857A03F2805E36E00053143 /* Datos.m */,
 				C853BB8527FF15670020C28F /* Main.storyboard */,
 				C853BB8827FF156E0020C28F /* Assets.xcassets */,
 				C853BB8A27FF156E0020C28F /* LaunchScreen.storyboard */,
@@ -194,6 +201,7 @@
 		E83CC8FB2805C000001C3CD5 /* recursos */ = {
 			isa = PBXGroup;
 			children = (
+				C857A0392805E23300053143 /* kisspng-web-open-font-format-computer-icons-clip-art-previous-button-5ac586f645d355.621575761522894582286.png */,
 				E8AEAB3D2805C59E0059E120 /* flecha_der.png */,
 				E8AEAB352805C54F0059E120 /* flecha_izq.png */,
 				E83CC8FC2805C000001C3CD5 /* pngegg (3).png */,
@@ -359,6 +367,7 @@
 				C853BB8C27FF156E0020C28F /* LaunchScreen.storyboard in Resources */,
 				E83CC90C2805C000001C3CD5 /* pngegg (3).png in Resources */,
 				E83CC90D2805C000001C3CD5 /* IZQ2.png in Resources */,
+				C857A03A2805E23400053143 /* kisspng-web-open-font-format-computer-icons-clip-art-previous-button-5ac586f645d355.621575761522894582286.png in Resources */,
 				E83CC9112805C000001C3CD5 /* sp_vel1.jpg in Resources */,
 				E8AEAB362805C54F0059E120 /* flecha_izq.png in Resources */,
 				C853BB8927FF156E0020C28F /* Assets.xcassets in Resources */,
@@ -398,6 +407,7 @@
 				C853BB7E27FF15670020C28F /* AppDelegate.m in Sources */,
 				C857A0002804868600053143 /* LoginViewController.m in Sources */,
 				C853BB8F27FF156E0020C28F /* main.m in Sources */,
+				C857A0402805E36E00053143 /* Datos.m in Sources */,
 				C853BB8127FF15670020C28F /* SceneDelegate.m in Sources */,
 				C8579FF028009F7000053143 /* MovimientoViewController.m in Sources */,
 			);
