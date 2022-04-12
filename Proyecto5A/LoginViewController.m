@@ -14,12 +14,13 @@
 
 @implementation LoginViewController
 
-@synthesize webs;
+@synthesize webs, datos;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    webs = [NSArray arrayWithObjects:@"https://www.google.com", nil];
+    webs = [NSArray arrayWithObjects:@"https://www.acdc.com", nil];
+    datos = [Datos sharedDatos];
 }
 
 /*
@@ -31,6 +32,13 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    WebViewController * vc = segue.destinationViewController;
+    
+    vc.urlWeb = webs[indice];
+}
 
 @end
 

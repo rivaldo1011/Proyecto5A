@@ -9,5 +9,13 @@
 
 @implementation Datos
 
-+ (id)sharedDatos;
++ (id)sharedDatos
+{
+    static id datos;
+    
+    if (datos == nil)
+        datos = [[self alloc] init];
+    
+    return  datos;
+}
 @end

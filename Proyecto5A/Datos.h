@@ -10,17 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Datos : NSObject
-
-+ (id)sharedDatos
-{
-    static id datos;
-    
-    if (datos == nil)
-        datos = [[self alloc] init];
-    
-    return  datos;
-}
-
++ (id)sharedDatos;
 @end
 
 NS_ASSUME_NONNULL_END

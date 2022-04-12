@@ -6,11 +6,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Datos.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LoginViewController : UIViewController
 @property (nonatomic, strong) NSArray * webs;
+@property (nonatomic, strong) Datos * datos;
 @end
 
 NS_ASSUME_NONNULL_END
