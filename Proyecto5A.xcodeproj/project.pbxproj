@@ -20,6 +20,12 @@
 		C857A0002804868600053143 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8579FFF2804868600053143 /* LoginViewController.m */; };
 		C857A00E28048C5100053143 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C857A00D28048C5100053143 /* WebViewController.m */; };
 		C857A0142804923E00053143 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C857A0132804923D00053143 /* WebKit.framework */; };
+		E83CC8EF280499BA001C3CD5 /* pngegg (3).png in Resources */ = {isa = PBXBuildFile; fileRef = E83CC8E6280499BA001C3CD5 /* pngegg (3).png */; };
+		E83CC8F0280499BA001C3CD5 /* IZQ2.png in Resources */ = {isa = PBXBuildFile; fileRef = E83CC8E7280499BA001C3CD5 /* IZQ2.png */; };
+		E83CC8F1280499BA001C3CD5 /* Logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E83CC8EB280499BA001C3CD5 /* Logo.jpeg */; };
+		E83CC8F2280499BA001C3CD5 /* PEDAL2.png in Resources */ = {isa = PBXBuildFile; fileRef = E83CC8EC280499BA001C3CD5 /* PEDAL2.png */; };
+		E83CC8F3280499BA001C3CD5 /* DER2.png in Resources */ = {isa = PBXBuildFile; fileRef = E83CC8ED280499BA001C3CD5 /* DER2.png */; };
+		E83CC8F4280499BA001C3CD5 /* PEDAL1.png in Resources */ = {isa = PBXBuildFile; fileRef = E83CC8EE280499BA001C3CD5 /* PEDAL1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +71,12 @@
 		C857A00C28048C5100053143 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		C857A00D28048C5100053143 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		C857A0132804923D00053143 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		E83CC8E6280499BA001C3CD5 /* pngegg (3).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pngegg (3).png"; sourceTree = "<group>"; };
+		E83CC8E7280499BA001C3CD5 /* IZQ2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IZQ2.png; sourceTree = "<group>"; };
+		E83CC8EB280499BA001C3CD5 /* Logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo.jpeg; sourceTree = "<group>"; };
+		E83CC8EC280499BA001C3CD5 /* PEDAL2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PEDAL2.png; sourceTree = "<group>"; };
+		E83CC8ED280499BA001C3CD5 /* DER2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DER2.png; sourceTree = "<group>"; };
+		E83CC8EE280499BA001C3CD5 /* PEDAL1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PEDAL1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +129,7 @@
 		C853BB7B27FF15670020C28F /* Proyecto5A */ = {
 			isa = PBXGroup;
 			children = (
+				E83CC8E5280499BA001C3CD5 /* recursos */,
 				C853BB7C27FF15670020C28F /* AppDelegate.h */,
 				C853BB7D27FF15670020C28F /* AppDelegate.m */,
 				C853BB7F27FF15670020C28F /* SceneDelegate.h */,
@@ -162,6 +175,43 @@
 				C857A0132804923D00053143 /* WebKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E83CC8E5280499BA001C3CD5 /* recursos */ = {
+			isa = PBXGroup;
+			children = (
+				E83CC8E6280499BA001C3CD5 /* pngegg (3).png */,
+				E83CC8E7280499BA001C3CD5 /* IZQ2.png */,
+				E83CC8E8280499BA001C3CD5 /* sprites */,
+				E83CC8EB280499BA001C3CD5 /* Logo.jpeg */,
+				E83CC8EC280499BA001C3CD5 /* PEDAL2.png */,
+				E83CC8ED280499BA001C3CD5 /* DER2.png */,
+				E83CC8EE280499BA001C3CD5 /* PEDAL1.png */,
+			);
+			path = recursos;
+			sourceTree = "<group>";
+		};
+		E83CC8E8280499BA001C3CD5 /* sprites */ = {
+			isa = PBXGroup;
+			children = (
+				E83CC8E9280499BA001C3CD5 /* pre_krita */,
+				E83CC8EA280499BA001C3CD5 /* sensor_temperatura1 */,
+			);
+			path = sprites;
+			sourceTree = "<group>";
+		};
+		E83CC8E9280499BA001C3CD5 /* pre_krita */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = pre_krita;
+			sourceTree = "<group>";
+		};
+		E83CC8EA280499BA001C3CD5 /* sensor_temperatura1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = sensor_temperatura1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +316,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E83CC8F3280499BA001C3CD5 /* DER2.png in Resources */,
 				C853BB8C27FF156E0020C28F /* LaunchScreen.storyboard in Resources */,
+				E83CC8F2280499BA001C3CD5 /* PEDAL2.png in Resources */,
+				E83CC8EF280499BA001C3CD5 /* pngegg (3).png in Resources */,
+				E83CC8F4280499BA001C3CD5 /* PEDAL1.png in Resources */,
+				E83CC8F1280499BA001C3CD5 /* Logo.jpeg in Resources */,
+				E83CC8F0280499BA001C3CD5 /* IZQ2.png in Resources */,
 				C853BB8927FF156E0020C28F /* Assets.xcassets in Resources */,
 				C853BB8727FF15670020C28F /* Main.storyboard in Resources */,
 			);
