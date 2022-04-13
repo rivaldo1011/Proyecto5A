@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		380BC6A954FCAC1546AAA63B /* Pods_Proyecto5A_Proyecto5AUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278B2FD83E206E44CACE7739 /* Pods_Proyecto5A_Proyecto5AUITests.framework */; };
 		6C24F284082F0267AD50A1BE /* Pods_Proyecto5ATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE143FC126EF66ACB59544E7 /* Pods_Proyecto5ATests.framework */; };
-		B76BA6532BF4AF6F665CB44E /* Pods_Proyecto5A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218C9D5B9335D8B71B2C3595 /* Pods_Proyecto5A.framework */; };
 		C853BB7E27FF15670020C28F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C853BB7D27FF15670020C28F /* AppDelegate.m */; };
 		C853BB8127FF15670020C28F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C853BB8027FF15670020C28F /* SceneDelegate.m */; };
 		C853BB8427FF15670020C28F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C853BB8327FF15670020C28F /* ViewController.m */; };
@@ -121,6 +120,9 @@
 		E8A911AB2807246500B7B240 /* PEDAL2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PEDAL2.png; sourceTree = "<group>"; };
 		E8A911AC2807246500B7B240 /* DER2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DER2.png; sourceTree = "<group>"; };
 		E8A911AD2807246500B7B240 /* PEDAL1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PEDAL1.png; sourceTree = "<group>"; };
+		E8AA801528072C130043947F /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AA802028072CD20043947F /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AA802928072DAF0043947F /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +131,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C857A0142804923E00053143 /* WebKit.framework in Frameworks */,
-				B76BA6532BF4AF6F665CB44E /* Pods_Proyecto5A.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +226,9 @@
 		C857A0122804923D00053143 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E8AA802928072DAF0043947F /* SDWebImage.framework */,
+				E8AA802028072CD20043947F /* SDWebImage.framework */,
+				E8AA801528072C130043947F /* SDWebImage.framework */,
 				C857A0132804923D00053143 /* WebKit.framework */,
 				218C9D5B9335D8B71B2C3595 /* Pods_Proyecto5A.framework */,
 				278B2FD83E206E44CACE7739 /* Pods_Proyecto5A_Proyecto5AUITests.framework */,
@@ -243,7 +247,6 @@
 				DB18774704915560FDBA75F2 /* Pods-Proyecto5ATests.debug.xcconfig */,
 				A262AF55072F4EB450733D99 /* Pods-Proyecto5ATests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
