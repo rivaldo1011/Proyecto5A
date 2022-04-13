@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		C81DBC102805FE5B0005BA98 /* kisspng-arrow-button-computer-icons-clip-art-left-arrow-5b35cacb096341.9629085015302519790385.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DBC0F2805FE5B0005BA98 /* kisspng-arrow-button-computer-icons-clip-art-left-arrow-5b35cacb096341.9629085015302519790385.png */; };
 		C81DBC15280712B00005BA98 /* CARRO.png in Resources */ = {isa = PBXBuildFile; fileRef = C81DBC14280712B00005BA98 /* CARRO.png */; };
-		C81DBC1E280718C70005BA98 /* ethnocentric rg it.otf in Resources */ = {isa = PBXBuildFile; fileRef = C81DBC1A280718C70005BA98 /* ethnocentric rg it.otf */; };
-		C81DBC1F280718C70005BA98 /* typodermic-eula-03-2020.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C81DBC1B280718C70005BA98 /* typodermic-eula-03-2020.pdf */; };
-		C81DBC20280718C70005BA98 /* ethnocentric rg.otf in Resources */ = {isa = PBXBuildFile; fileRef = C81DBC1C280718C70005BA98 /* ethnocentric rg.otf */; };
-		C81DBC21280718C70005BA98 /* read-this.html in Resources */ = {isa = PBXBuildFile; fileRef = C81DBC1D280718C70005BA98 /* read-this.html */; };
 		C853BB7E27FF15670020C28F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C853BB7D27FF15670020C28F /* AppDelegate.m */; };
 		C853BB8127FF15670020C28F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C853BB8027FF15670020C28F /* SceneDelegate.m */; };
 		C853BB8427FF15670020C28F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C853BB8327FF15670020C28F /* ViewController.m */; };
@@ -39,6 +35,10 @@
 		E83CC9152805C000001C3CD5 /* DER2.png in Resources */ = {isa = PBXBuildFile; fileRef = E83CC90A2805C000001C3CD5 /* DER2.png */; };
 		E83CC9162805C000001C3CD5 /* PEDAL1.png in Resources */ = {isa = PBXBuildFile; fileRef = E83CC90B2805C000001C3CD5 /* PEDAL1.png */; };
 		E8A9117C2805E89900B7B240 /* DatosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A9117B2805E89900B7B240 /* DatosViewController.m */; };
+		E8A9119128071DB800B7B240 /* ethnocentric rg it.otf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9118D28071DB800B7B240 /* ethnocentric rg it.otf */; };
+		E8A9119228071DB800B7B240 /* typodermic-eula-03-2020.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9118E28071DB800B7B240 /* typodermic-eula-03-2020.pdf */; };
+		E8A9119328071DB800B7B240 /* ethnocentric rg.otf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9118F28071DB800B7B240 /* ethnocentric rg.otf */; };
+		E8A9119428071DB800B7B240 /* read-this.html in Resources */ = {isa = PBXBuildFile; fileRef = E8A9119028071DB800B7B240 /* read-this.html */; };
 		E8AEAB362805C54F0059E120 /* flecha_izq.png in Resources */ = {isa = PBXBuildFile; fileRef = E8AEAB352805C54F0059E120 /* flecha_izq.png */; };
 		E8AEAB3E2805C59E0059E120 /* flecha_der.png in Resources */ = {isa = PBXBuildFile; fileRef = E8AEAB3D2805C59E0059E120 /* flecha_der.png */; };
 /* End PBXBuildFile section */
@@ -63,10 +63,6 @@
 /* Begin PBXFileReference section */
 		C81DBC0F2805FE5B0005BA98 /* kisspng-arrow-button-computer-icons-clip-art-left-arrow-5b35cacb096341.9629085015302519790385.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kisspng-arrow-button-computer-icons-clip-art-left-arrow-5b35cacb096341.9629085015302519790385.png"; path = "../../../../../Downloads/kisspng-arrow-button-computer-icons-clip-art-left-arrow-5b35cacb096341.9629085015302519790385.png"; sourceTree = "<group>"; };
 		C81DBC14280712B00005BA98 /* CARRO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CARRO.png; path = ../../../../../Downloads/CARRO.png; sourceTree = "<group>"; };
-		C81DBC1A280718C70005BA98 /* ethnocentric rg it.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ethnocentric rg it.otf"; sourceTree = "<group>"; };
-		C81DBC1B280718C70005BA98 /* typodermic-eula-03-2020.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "typodermic-eula-03-2020.pdf"; sourceTree = "<group>"; };
-		C81DBC1C280718C70005BA98 /* ethnocentric rg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ethnocentric rg.otf"; sourceTree = "<group>"; };
-		C81DBC1D280718C70005BA98 /* read-this.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "read-this.html"; sourceTree = "<group>"; };
 		C853BB7927FF15670020C28F /* Proyecto5A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyecto5A.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C853BB7C27FF15670020C28F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C853BB7D27FF15670020C28F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -107,6 +103,10 @@
 		E83CC90B2805C000001C3CD5 /* PEDAL1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PEDAL1.png; sourceTree = "<group>"; };
 		E8A9117A2805E89900B7B240 /* DatosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatosViewController.h; sourceTree = "<group>"; };
 		E8A9117B2805E89900B7B240 /* DatosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatosViewController.m; sourceTree = "<group>"; };
+		E8A9118D28071DB800B7B240 /* ethnocentric rg it.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ethnocentric rg it.otf"; sourceTree = "<group>"; };
+		E8A9118E28071DB800B7B240 /* typodermic-eula-03-2020.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "typodermic-eula-03-2020.pdf"; sourceTree = "<group>"; };
+		E8A9118F28071DB800B7B240 /* ethnocentric rg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ethnocentric rg.otf"; sourceTree = "<group>"; };
+		E8A9119028071DB800B7B240 /* read-this.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "read-this.html"; sourceTree = "<group>"; };
 		E8AEAB352805C54F0059E120 /* flecha_izq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flecha_izq.png; sourceTree = "<group>"; };
 		E8AEAB3D2805C59E0059E120 /* flecha_der.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flecha_der.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,18 +137,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C81DBC19280718C70005BA98 /* ethnocentric */ = {
-			isa = PBXGroup;
-			children = (
-				C81DBC1A280718C70005BA98 /* ethnocentric rg it.otf */,
-				C81DBC1B280718C70005BA98 /* typodermic-eula-03-2020.pdf */,
-				C81DBC1C280718C70005BA98 /* ethnocentric rg.otf */,
-				C81DBC1D280718C70005BA98 /* read-this.html */,
-			);
-			name = ethnocentric;
-			path = ../../../../Downloads/ethnocentric;
-			sourceTree = "<group>";
-		};
 		C853BB7027FF15670020C28F = {
 			isa = PBXGroup;
 			children = (
@@ -173,7 +161,7 @@
 		C853BB7B27FF15670020C28F /* Proyecto5A */ = {
 			isa = PBXGroup;
 			children = (
-				C81DBC19280718C70005BA98 /* ethnocentric */,
+				E8A9118C28071DB800B7B240 /* ethnocentric */,
 				E83CC8FB2805C000001C3CD5 /* recursos */,
 				C853BB7C27FF15670020C28F /* AppDelegate.h */,
 				C853BB7D27FF15670020C28F /* AppDelegate.m */,
@@ -288,6 +276,17 @@
 			path = sp_vel1;
 			sourceTree = "<group>";
 		};
+		E8A9118C28071DB800B7B240 /* ethnocentric */ = {
+			isa = PBXGroup;
+			children = (
+				E8A9118D28071DB800B7B240 /* ethnocentric rg it.otf */,
+				E8A9118E28071DB800B7B240 /* typodermic-eula-03-2020.pdf */,
+				E8A9118F28071DB800B7B240 /* ethnocentric rg.otf */,
+				E8A9119028071DB800B7B240 /* read-this.html */,
+			);
+			path = ethnocentric;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -390,9 +389,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C81DBC1F280718C70005BA98 /* typodermic-eula-03-2020.pdf in Resources */,
+				E8A9119228071DB800B7B240 /* typodermic-eula-03-2020.pdf in Resources */,
 				C81DBC102805FE5B0005BA98 /* kisspng-arrow-button-computer-icons-clip-art-left-arrow-5b35cacb096341.9629085015302519790385.png in Resources */,
-				C81DBC21280718C70005BA98 /* read-this.html in Resources */,
+				E8A9119428071DB800B7B240 /* read-this.html in Resources */,
 				E83CC9152805C000001C3CD5 /* DER2.png in Resources */,
 				E83CC9132805C000001C3CD5 /* Logo.jpeg in Resources */,
 				C81DBC15280712B00005BA98 /* CARRO.png in Resources */,
@@ -402,12 +401,12 @@
 				E83CC90D2805C000001C3CD5 /* IZQ2.png in Resources */,
 				E83CC9112805C000001C3CD5 /* sp_vel1.jpg in Resources */,
 				E8AEAB362805C54F0059E120 /* flecha_izq.png in Resources */,
-				C81DBC1E280718C70005BA98 /* ethnocentric rg it.otf in Resources */,
+				E8A9119128071DB800B7B240 /* ethnocentric rg it.otf in Resources */,
 				C853BB8927FF156E0020C28F /* Assets.xcassets in Resources */,
 				C853BB8727FF15670020C28F /* Main.storyboard in Resources */,
 				E83CC90E2805C000001C3CD5 /* temp1.jpg in Resources */,
 				E83CC9102805C000001C3CD5 /* sp_vel1_indicador.png in Resources */,
-				C81DBC20280718C70005BA98 /* ethnocentric rg.otf in Resources */,
+				E8A9119328071DB800B7B240 /* ethnocentric rg.otf in Resources */,
 				E83CC9142805C000001C3CD5 /* PEDAL2.png in Resources */,
 				E83CC9122805C000001C3CD5 /* sp_vel1.png in Resources */,
 				E8AEAB3E2805C59E0059E120 /* flecha_der.png in Resources */,
