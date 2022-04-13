@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.mvkRegistrar loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://github.com/login"]]];
+    [self.mvkRegistrar loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://67.205.189.202"]]];
 }
 
 /*
