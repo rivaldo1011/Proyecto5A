@@ -8,6 +8,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="ethnocentric rg it.otf">
+            <string>EthnocentricRg-Italic</string>
+        </array>
         <array key="ethnocentric rg.otf">
             <string>EthnocentricRg-Regular</string>
         </array>
@@ -60,8 +63,9 @@
                                 <color key="textColor" red="0.24915146830000001" green="0.30085098739999999" blue="0.3673968017" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WeI-ep-4ge">
-                                <rect key="frame" x="20" y="91" width="374" height="704"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WeI-ep-4ge">
+                                <rect key="frame" x="20" y="139" width="374" height="661"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <viewLayoutGuide key="contentLayoutGuide" id="ilk-Xr-Awn"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="kDT-zq-h24"/>
                             </scrollView>
@@ -70,14 +74,12 @@
                         <color key="backgroundColor" red="0.87864607569999997" green="0.86667340989999997" blue="0.86642271280000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="f8w-mV-p2y" firstAttribute="top" secondItem="aVv-fm-fCi" secondAttribute="top" constant="20" id="0oM-NN-m3A"/>
-                            <constraint firstItem="WeI-ep-4ge" firstAttribute="top" secondItem="aVv-fm-fCi" secondAttribute="top" constant="10" id="0xe-Gb-iad"/>
-                            <constraint firstItem="aVv-fm-fCi" firstAttribute="bottom" secondItem="WeI-ep-4ge" secondAttribute="bottom" constant="10" id="ZqX-GD-T80"/>
-                            <constraint firstItem="aVv-fm-fCi" firstAttribute="trailing" secondItem="WeI-ep-4ge" secondAttribute="trailing" constant="10" id="lbu-Bu-wKu"/>
                             <constraint firstItem="f8w-mV-p2y" firstAttribute="centerX" secondItem="ac8-2r-hyy" secondAttribute="centerX" id="nGZ-Rc-3zd"/>
-                            <constraint firstItem="WeI-ep-4ge" firstAttribute="leading" secondItem="aVv-fm-fCi" secondAttribute="leading" constant="10" id="vzO-7h-Krk"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Datos" image="externaldrive" catalog="system" selectedImage="externaldrive" id="3ES-Su-oqG"/>
+                    <tabBarItem key="tabBarItem" title="Datos" image="externaldrive" catalog="system" selectedImage="externaldrive" id="3ES-Su-oqG">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rff-IB-Wun" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -179,16 +181,18 @@
                         <constraints>
                             <constraint firstItem="cBd-NH-5Wi" firstAttribute="leading" secondItem="h39-5i-wki" secondAttribute="leading" constant="10" id="4Kl-WQ-CrZ"/>
                             <constraint firstItem="h39-5i-wki" firstAttribute="bottom" secondItem="IEB-57-pAu" secondAttribute="bottom" constant="10" id="FRH-DD-Y7A"/>
-                            <constraint firstItem="IEB-57-pAu" firstAttribute="top" secondItem="cBd-NH-5Wi" secondAttribute="bottom" constant="10" id="HeY-fa-W8x"/>
                             <constraint firstItem="uDN-GF-9Td" firstAttribute="centerX" secondItem="L6y-6K-yZS" secondAttribute="centerX" id="PAD-DJ-GAJ"/>
                             <constraint firstItem="h39-5i-wki" firstAttribute="trailing" secondItem="cBd-NH-5Wi" secondAttribute="trailing" constant="10" id="TnL-vG-T3O"/>
                             <constraint firstItem="IEB-57-pAu" firstAttribute="leading" secondItem="h39-5i-wki" secondAttribute="leading" constant="10" id="esl-za-Hwy"/>
                             <constraint firstItem="h39-5i-wki" firstAttribute="trailing" secondItem="IEB-57-pAu" secondAttribute="trailing" constant="10" id="fnC-5C-mbC"/>
                             <constraint firstItem="uDN-GF-9Td" firstAttribute="top" secondItem="h39-5i-wki" secondAttribute="top" id="pR0-7Y-bTB"/>
+                            <constraint firstItem="IEB-57-pAu" firstAttribute="top" secondItem="cBd-NH-5Wi" secondAttribute="bottom" constant="8" symbolic="YES" id="r25-qD-srn"/>
                             <constraint firstItem="cBd-NH-5Wi" firstAttribute="top" secondItem="uDN-GF-9Td" secondAttribute="bottom" constant="10" id="yYl-pk-rSt"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Movimiento" image="gamecontroller" catalog="system" selectedImage="gamecontroller" id="On0-UR-LQK"/>
+                    <tabBarItem key="tabBarItem" title="Movimiento" image="gamecontroller" catalog="system" selectedImage="gamecontroller" id="On0-UR-LQK">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="srcSensores" destination="cBd-NH-5Wi" id="33x-hx-eeL"/>
                     </connections>
@@ -251,8 +255,9 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="c4m-y6-1bH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" systemColor="systemGray2Color"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.24915146830000001" green="0.30085098739999999" blue="0.3673968017" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="YdN-GP-7Yl" kind="relationship" relationship="viewControllers" id="cLE-ri-XbZ"/>
@@ -283,25 +288,25 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correo." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89S-Cw-leP">
                                 <rect key="frame" x="30" y="227" width="354" height="18"/>
-                                <fontDescription key="fontDescription" name="EthnocentricRg-Regular" family="Ethnocentric" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="EthnocentricRg-Italic" family="Ethnocentric" pointSize="15"/>
                                 <color key="textColor" red="0.24915146830000001" green="0.30085098739999999" blue="0.3673968017" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Escribe tu nombre de usuario." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kjq-yc-mVa">
                                 <rect key="frame" x="30" y="253" width="354" height="34"/>
-                                <fontDescription key="fontDescription" name="EthnocentricRg-Regular" family="Ethnocentric" pointSize="11"/>
+                                <fontDescription key="fontDescription" name="EthnocentricRg-Italic" family="Ethnocentric" pointSize="11"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contraseña." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QLA-Oa-mKe">
                                 <rect key="frame" x="30" y="307" width="150.66666666666666" height="18"/>
-                                <fontDescription key="fontDescription" name="EthnocentricRg-Regular" family="Ethnocentric" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="EthnocentricRg-Italic" family="Ethnocentric" pointSize="15"/>
                                 <color key="textColor" red="0.24915146830000001" green="0.30085098739999999" blue="0.3673968017" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYH-kP-82Z">
                                 <rect key="frame" x="142" y="389" width="130" height="27"/>
                                 <color key="backgroundColor" systemColor="systemGray3Color"/>
-                                <fontDescription key="fontDescription" name="EthnocentricRg-Regular" family="Ethnocentric" pointSize="12"/>
+                                <fontDescription key="fontDescription" name="EthnocentricRg-Italic" family="Ethnocentric" pointSize="12"/>
                                 <state key="normal" title="INICIAR SESION.">
                                     <color key="titleColor" red="0.24915146830000001" green="0.30085098739999999" blue="0.3673968017" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -316,12 +321,12 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Escribe tu correo electronico." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VzY-D9-4jA">
                                 <rect key="frame" x="30" y="335" width="354" height="34"/>
                                 <color key="textColor" red="0.55300670860000001" green="0.6739788055" blue="0.7285197377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="EthnocentricRg-Regular" family="Ethnocentric" pointSize="11"/>
+                                <fontDescription key="fontDescription" name="EthnocentricRg-Italic" family="Ethnocentric" pointSize="11"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S9N-Ye-Plk">
                                 <rect key="frame" x="76" y="436" width="262" height="26"/>
-                                <fontDescription key="fontDescription" name="EthnocentricRg-Regular" family="Ethnocentric" pointSize="11"/>
+                                <fontDescription key="fontDescription" name="EthnocentricRg-Italic" family="Ethnocentric" pointSize="11"/>
                                 <state key="normal" title="¿No tienes cuenta? Registrate.">
                                     <color key="titleColor" red="0.24915146830000001" green="0.30085098739999999" blue="0.3673968017" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -382,9 +387,6 @@
         <image name="gamecontroller" catalog="system" width="128" height="80"/>
         <image name="kisspng-arrow-button-computer-icons-clip-art-left-arrow-5b35cacb096341.9629085015302519790385.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="pngegg (3).png" width="130.26148986816406" height="130.26148986816406"/>
-        <systemColor name="systemGray2Color">
-            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemGray3Color">
             <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
