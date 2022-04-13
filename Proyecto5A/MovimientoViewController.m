@@ -6,17 +6,26 @@
 //
 
 #import "MovimientoViewController.h"
-
+#import <SDWebImage/UIImageView+WebCache.h>
 @interface MovimientoViewController ()
 
 @end
 
 @implementation MovimientoViewController
-
+@synthesize susuario,snomSensor,sDescripcion,sfechacreasion,sfechaactualizacion,sEstado,sGPIO,sIMG;
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    susuario = [[NSMutableArray alloc] init];
+    snomSensor = [[NSMutableArray alloc] init];
+    sDescripcion = [[NSMutableArray alloc] init];
+    sfechacreasion = [[NSMutableArray alloc] init];
+    sfechaactualizacion = [[NSMutableArray alloc] init];
+    sEstado = [[NSMutableArray alloc] init];
+    sGPIO = [[NSMutableArray alloc] init];
+    sIMG = [[NSMutableArray alloc] init];
+    
 }
+
 - (IBAction)btnDER:(id)sender {
 }
 

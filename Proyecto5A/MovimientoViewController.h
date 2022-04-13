@@ -15,8 +15,15 @@ NS_ASSUME_NONNULL_BEGIN
 - (IBAction)btnIZQ:(id)sender;
 - (IBAction)btnDER:(id)sender;
 @property (weak, nonatomic) IBOutlet UIScrollView *srcSensores;
-@property (nonatomic, strong) NSString * token;
-@property (nonatomic, strong) NSMutableArray * sensores;
+@property (nonatomic, strong) NSString * uToken;
+@property (nonatomic, strong) NSMutableArray * susuario;
+@property (nonatomic, strong) NSMutableArray * snomSensor;
+@property (nonatomic, strong) NSMutableArray * sDescripcion;
+@property (nonatomic, strong) NSMutableArray * sfechacreasion;
+@property (nonatomic, strong) NSMutableArray * sfechaactualizacion;
+@property (nonatomic, strong) NSMutableArray * sEstado;
+@property (nonatomic, strong) NSMutableArray * sGPIO;
+@property (nonatomic, strong) NSMutableArray * sIMG;
 @end
 
 NS_ASSUME_NONNULL_END
