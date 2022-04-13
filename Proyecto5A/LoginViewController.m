@@ -35,10 +35,12 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    WebViewController * vc = segue.destinationViewController;
+    //WebViewController * vc = segue.destinationViewController;
     
     //vc.urlWeb = webs[indice];
 }
 
+- (IBAction)btnInicioSesion {
+}
 @end
 
