@@ -10,12 +10,13 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MovimientoViewController : UIViewController
-- (IBAction)btnAvansar:(id)sender;
-- (IBAction)btnReversa:(id)sender;
-- (IBAction)btnIZQ:(id)sender;
-- (IBAction)btnDER:(id)sender;
-@property (weak, nonatomic) IBOutlet UIScrollView *srcSensores;
-@property (nonatomic, strong) NSString * uToken;
+//- (IBAction)btnAvansar:(id)sender;
+//- (IBAction)btnReversa:(id)sender;
+//- (IBAction)btnIZQ:(id)sender;
+//- (IBAction)btnDER:(id)sender;
+//@property (weak, nonatomic) IBOutlet UIScrollView *srcSensores;
+@property (weak, nonatomic) IBOutlet UIButton *btnMissensores;
+@property (nonatomic, strong) NSString * ussToken;
 @property (nonatomic) int isUario;
 @property (nonatomic, strong) NSMutableArray * sidSensor;
 @property (nonatomic, strong) NSMutableArray * snomSensor;

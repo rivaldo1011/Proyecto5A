@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSArray * webs;
 @property (nonatomic, strong) Datos * datos;
 @property (nonatomic, strong) NSString * txvusuario;
+@property (nonatomic, strong) NSString * token;
 @property (weak, nonatomic) IBOutlet UITextField *ltxvCorreo;
 @property (weak, nonatomic) IBOutlet UITextField *ltxvPassword;
 - (IBAction)btnInicioSesion;

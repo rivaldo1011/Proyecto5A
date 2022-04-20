@@ -23,6 +23,8 @@
 		C857A00E28048C5100053143 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C857A00D28048C5100053143 /* WebViewController.m */; };
 		C857A0142804923E00053143 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C857A0132804923D00053143 /* WebKit.framework */; };
 		C857A0402805E36E00053143 /* Datos.m in Sources */ = {isa = PBXBuildFile; fileRef = C857A03F2805E36E00053143 /* Datos.m */; };
+		E8008CF128107EA1003499FC /* TabcontrollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8008CF028107EA1003499FC /* TabcontrollerViewController.m */; };
+		E8008CF7281083CA003499FC /* detalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8008CF6281083CA003499FC /* detalleViewController.m */; };
 		E8A9117C2805E89900B7B240 /* DatosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A9117B2805E89900B7B240 /* DatosViewController.m */; };
 		E8A9119128071DB800B7B240 /* ethnocentric rg it.otf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9118D28071DB800B7B240 /* ethnocentric rg it.otf */; };
 		E8A9119228071DB800B7B240 /* typodermic-eula-03-2020.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9118E28071DB800B7B240 /* typodermic-eula-03-2020.pdf */; };
@@ -99,6 +101,10 @@
 		CE143FC126EF66ACB59544E7 /* Pods_Proyecto5ATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Proyecto5ATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDC7BE6BC6983394927E255 /* Pods-Proyecto5A.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Proyecto5A.debug.xcconfig"; path = "Target Support Files/Pods-Proyecto5A/Pods-Proyecto5A.debug.xcconfig"; sourceTree = "<group>"; };
 		DB18774704915560FDBA75F2 /* Pods-Proyecto5ATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Proyecto5ATests.debug.xcconfig"; path = "Target Support Files/Pods-Proyecto5ATests/Pods-Proyecto5ATests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8008CEF28107EA1003499FC /* TabcontrollerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabcontrollerViewController.h; sourceTree = "<group>"; };
+		E8008CF028107EA1003499FC /* TabcontrollerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabcontrollerViewController.m; sourceTree = "<group>"; };
+		E8008CF5281083CA003499FC /* detalleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = detalleViewController.h; sourceTree = "<group>"; };
+		E8008CF6281083CA003499FC /* detalleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = detalleViewController.m; sourceTree = "<group>"; };
 		E8A9117A2805E89900B7B240 /* DatosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatosViewController.h; sourceTree = "<group>"; };
 		E8A9117B2805E89900B7B240 /* DatosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatosViewController.m; sourceTree = "<group>"; };
 		E8A9118D28071DB800B7B240 /* ethnocentric rg it.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ethnocentric rg it.otf"; sourceTree = "<group>"; };
@@ -201,6 +207,10 @@
 				C853BB8E27FF156E0020C28F /* main.m */,
 				E8A9117A2805E89900B7B240 /* DatosViewController.h */,
 				E8A9117B2805E89900B7B240 /* DatosViewController.m */,
+				E8008CEF28107EA1003499FC /* TabcontrollerViewController.h */,
+				E8008CF028107EA1003499FC /* TabcontrollerViewController.m */,
+				E8008CF5281083CA003499FC /* detalleViewController.h */,
+				E8008CF6281083CA003499FC /* detalleViewController.m */,
 			);
 			path = Proyecto5A;
 			sourceTree = "<group>";
@@ -563,6 +573,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8008CF128107EA1003499FC /* TabcontrollerViewController.m in Sources */,
 				C853BB8427FF15670020C28F /* ViewController.m in Sources */,
 				C857A00E28048C5100053143 /* WebViewController.m in Sources */,
 				C853BB7E27FF15670020C28F /* AppDelegate.m in Sources */,
@@ -571,6 +582,7 @@
 				C857A0402805E36E00053143 /* Datos.m in Sources */,
 				C853BB8127FF15670020C28F /* SceneDelegate.m in Sources */,
 				E8A9117C2805E89900B7B240 /* DatosViewController.m in Sources */,
+				E8008CF7281083CA003499FC /* detalleViewController.m in Sources */,
 				C8579FF028009F7000053143 /* MovimientoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

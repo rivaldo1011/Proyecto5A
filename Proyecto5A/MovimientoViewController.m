@@ -5,6 +5,7 @@
 //  Created by Mac02 on 08/04/22.
 //
 
+#import "TabcontrollerViewController.h"
 #import "MovimientoViewController.h"
 //SDWebImage/UIImageView+WebCache.h
 #import <SDWebImage/UIImageView+WebCache.h>
@@ -13,62 +14,14 @@
 @end
 
 @implementation MovimientoViewController
-@synthesize isUario,snomSensor,sDescripcion,sfechacreasion,sfechaactualizacion,sEstado,sGPIO,sIMG,sidSensor;
+@
 - (void)viewDidLoad {
     [super viewDidLoad];
-    isUario=1;
-    sidSensor = [[NSMutableArray alloc] init];
-    snomSensor = [[NSMutableArray alloc] init];
-    sDescripcion = [[NSMutableArray alloc] init];
-    sfechacreasion = [[NSMutableArray alloc] init];
-    sfechaactualizacion = [[NSMutableArray alloc] init];
-    sEstado = [[NSMutableArray alloc] init];
-    sGPIO = [[NSMutableArray alloc] init];
-    sIMG = [[NSMutableArray alloc] init];
-    [self obtenerTokenSesion];
+    //[self obtenerTokenSesion];
 }
-//Obtiene token de sesión del servidor
-- (void)obtenerTokenSesion
-{
-    //Setea la conexión con el host
-    NSURLSession *sesion = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
-    NSMutableURLRequest * peticion = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"https://api.vanko.mx/v1/auth/login"]];
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     
-    //Setea el cuerpo de la petición
-    NSError * error;
-    NSString * UUID = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
-    NSDictionary * body = [NSDictionary dictionaryWithObjectsAndKeys:UUID,@"uuid",nil];
-    NSData * bodyRequest = [NSJSONSerialization dataWithJSONObject:body options:NSJSONWritingPrettyPrinted error:&error];
-    peticion.HTTPBody = bodyRequest;
-        
-    //Setea el cuerpo de la consulta
-    [peticion setValue: @"application/json" forHTTPHeaderField:@"Content-Type"];
-    peticion.HTTPMethod = @"POST";
-
     
-    NSURLSessionDataTask *obtenToken = [sesion dataTaskWithRequest:peticion completionHandler:^(NSData *data, NSURLResponse *response, NSError *error)
-     
-    {
-        NSDictionary * json;
-        
-        if (data == nil)
-            dispatch_async(dispatch_get_main_queue(), ^{
-                UIAlertController * alerta = [UIAlertController alertControllerWithTitle:@"ERROR" message:@"Imposible conectarse al servidor" preferredStyle:UIAlertControllerStyleAlert];
-                UIAlertAction * ok = [UIAlertAction actionWithTitle:@"Aceptar" style:UIAlertActionStyleCancel handler:nil];
-                
-                [alerta addAction:ok];
-                [self presentViewController:alerta animated:YES completion:nil];
-            });
-        else
-        {
-            json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
-            
-            self.uToken = [[[json objectForKey:@"data"] objectForKey:@"auth"] objectForKey:@"token"];
-            [self obtenerArticulos];
-        }
-    }];
-    
-    [obtenToken resume];
 }
 - (void)obtenerArticulos
 {
@@ -77,7 +30,7 @@
     NSMutableURLRequest * peticion = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"https://127.0.0.1:3333/smostrarSensores"]];
         
     //Setea el cuerpo de la consulta
-    NSString * bearerString = [NSString stringWithFormat:@"Bearer %@", self.uToken];
+    NSString * bearerString = [NSString stringWithFormat:@"Bearer %@", self.ussToken];
     [peticion setValue: bearerString forHTTPHeaderField:@"Authorization"];
     peticion.HTTPMethod = @"GET";
 
@@ -154,16 +107,5 @@
     }
     
     self.srcSensores.contentSize = CGSizeMake(0, posY);
-}
-- (IBAction)btnDER:(id)sender {
-}
-
-- (IBAction)btnIZQ:(id)sender {
-}
-
-- (IBAction)btnReversa:(id)sender {
-}
-
-- (IBAction)btnAvansar:(id)sender {
 }
 @end
