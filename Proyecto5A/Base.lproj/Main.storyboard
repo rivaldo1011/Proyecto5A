@@ -298,13 +298,13 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contraseña." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QLA-Oa-mKe">
-                                <rect key="frame" x="30" y="307" width="150.66666666666666" height="18"/>
+                                <rect key="frame" x="30" y="307" width="82" height="18"/>
                                 <fontDescription key="fontDescription" name="EthnocentricRg-Italic" family="Ethnocentric" pointSize="15"/>
                                 <color key="textColor" red="0.24915146830000001" green="0.30085098739999999" blue="0.3673968017" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYH-kP-82Z">
-                                <rect key="frame" x="142" y="389" width="130" height="27"/>
+                                <rect key="frame" x="160" y="389" width="94" height="26"/>
                                 <color key="backgroundColor" systemColor="systemGray3Color"/>
                                 <fontDescription key="fontDescription" name="EthnocentricRg-Italic" family="Ethnocentric" pointSize="12"/>
                                 <state key="normal" title="INICIAR SESION.">
@@ -328,7 +328,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S9N-Ye-Plk">
-                                <rect key="frame" x="76" y="436" width="262" height="26"/>
+                                <rect key="frame" x="131" y="435" width="152" height="25"/>
                                 <fontDescription key="fontDescription" name="EthnocentricRg-Italic" family="Ethnocentric" pointSize="11"/>
                                 <state key="normal" title="¿No tienes cuenta? Registrate.">
                                     <color key="titleColor" red="0.24915146830000001" green="0.30085098739999999" blue="0.3673968017" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -388,10 +388,10 @@
         <image name="CARRO.png" width="720" height="720"/>
         <image name="PEDAL1.png" width="207.75" height="492.75"/>
         <image name="PEDAL2.png" width="261" height="365.25"/>
-        <image name="externaldrive" catalog="system" width="128" height="88"/>
+        <image name="externaldrive" catalog="system" width="32" height="32"/>
         <image name="flecha_der.png" width="184.32000732421875" height="142.32000732421875"/>
         <image name="flecha_izq.png" width="184.32000732421875" height="142.32000732421875"/>
-        <image name="gamecontroller" catalog="system" width="128" height="80"/>
+        <image name="gamecontroller" catalog="system" width="32" height="32"/>
         <image name="kisspng-arrow-button-computer-icons-clip-art-left-arrow-5b35cacb096341.9629085015302519790385.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="pngegg (3).png" width="130.26148986816406" height="130.26148986816406"/>
         <systemColor name="systemGray3Color">
