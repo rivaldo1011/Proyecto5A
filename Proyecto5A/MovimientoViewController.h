@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 //@property (weak, nonatomic) IBOutlet UIScrollView *srcSensores;
 @property (weak, nonatomic) IBOutlet UIButton *btnMissensores;
 @property (nonatomic, strong) NSString * ussToken;
+@property (nonatomic, strong) NSString * token;
 @property (nonatomic) int isUario;
 @property (nonatomic, strong) NSMutableArray * sidSensor;
 @property (nonatomic, strong) NSMutableArray * snomSensor;
