@@ -77,7 +77,7 @@
 {
     //Setea la conexión con el host
     NSURLSession *sesion = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
-    NSMutableURLRequest * peticion = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://143.244.174.46:42039/mostrarSensores"]];
+    NSMutableURLRequest * peticion = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://143.244.174.46:3333/mostrarSensores"]];
         
     //Setea el cuerpo de la consulta
     //NSString * bearerString = [NSString stringWithFormat:@"Bearer %@", self.ussToken];
@@ -141,13 +141,13 @@
         [lblsnomSensor setTextColor:[UIColor blackColor]];
         [lblsnomSensor setFont:[UIFont boldSystemFontOfSize:23]];
         lblsnomSensor.numberOfLines = 2;
-        /*
-        UILabel * lblAutor = [[UILabel alloc] initWithFrame:CGRectMake(100, 65, vwArticulo.frame.size.width - 105, 30)];
-        lblAutor.text = autores[i];
+        
+        UILabel * lblAutor = [[UILabel alloc] initWithFrame:CGRectMake(100, 65, vwsensores.frame.size.width - 105, 30)];
+        lblAutor.text = sDescripcion[i];
         [lblAutor setTextColor:[UIColor colorWithRed:.2 green:.2 blue:.2 alpha:1.0]];
         [lblAutor setFont:[UIFont systemFontOfSize:22]];
         lblAutor.textAlignment = NSTextAlignmentRight;
-        */
+        
         
         UIImageView * imvArticulo = [[UIImageView alloc] initWithFrame:CGRectMake(5, 5, 90, 90)];
         [imvArticulo sd_setImageWithURL:sIMG[i]];
@@ -160,7 +160,7 @@
         
         [vwsensores addSubview:lblsnomSensor];
         [vwsensores addSubview:imvArticulo];
-        //[vwsensores addSubview:lblAutor];
+        [vwsensores addSubview:lblAutor];
         //[vwsensores addSubview:btnDetalle];
         [self.SrcSensores addSubview:vwsensores];
     }
