@@ -39,7 +39,7 @@
    defaultSessionConfiguration]];
    NSMutableURLRequest * peticion =
    [NSMutableURLRequest requestWithURL:
-   [NSURL URLWithString:@"http://143.244.174.46:33285/Login"]];
+   [NSURL URLWithString:@"http://143.244.174.46:42039/Login"]];
 
    //Setea el cuerpo de la petición
    NSError * error;
@@ -71,21 +71,11 @@
    dispatch_async(dispatch_get_main_queue(),
    ^{
 
-   UIAlertController * alerta =
-
-   [UIAlertController
-   alertControllerWithTitle:@"ERROR"
-   message:@"Imposible conectarse al servidor"
-   preferredStyle:UIAlertControllerStyleAlert];
-   UIAlertAction * ok = [UIAlertAction
-
-   actionWithTitle:@"Aceptar"
-   style:UIAlertActionStyleCancel handler:nil];
-
-   [alerta addAction:ok];
-   [self presentViewController:alerta
-
-   animated:YES completion:nil];
+       UIAlertController * alerta = [UIAlertController alertControllerWithTitle:@"ERROR" message:@"Imposible conectarse al servidor" preferredStyle:UIAlertControllerStyleAlert];
+       UIAlertAction * ok = [UIAlertAction actionWithTitle:@"Aceptar" style:UIAlertActionStyleCancel handler:nil];
+       
+       [alerta addAction:ok];
+       [self presentViewController:alerta animated:YES completion:nil];
 
    });
    else

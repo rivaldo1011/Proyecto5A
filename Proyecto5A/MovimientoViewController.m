@@ -19,7 +19,7 @@
     [super viewDidLoad];
 }
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    if([[segue identifier] isEqualToString:@"Llistsensores"]){
+    if([[segue identifier] isEqualToString:@"Listsensores"]){
         MovimientoViewController*sgToken=[segue destinationViewController];
         sgToken.ussToken=[self token];//Llistsensores
     }

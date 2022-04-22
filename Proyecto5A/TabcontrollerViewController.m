@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"%@",self.ussToken);
     isUario=1;
     sidSensor = [[NSMutableArray alloc] init];
     snomSensor = [[NSMutableArray alloc] init];
@@ -25,7 +26,8 @@
     sEstado = [[NSMutableArray alloc] init];
     sGPIO = [[NSMutableArray alloc] init];
     sIMG = [[NSMutableArray alloc] init];
-    //[self obtenerTokenSesion];
+    [self obtenerArticulos];
+    
 }
 
 //Obtiene token de sesión del servidor
@@ -76,7 +78,7 @@
 {
     //Setea la conexión con el host
     NSURLSession *sesion = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
-    NSMutableURLRequest * peticion = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"https://143.244.174./smostrarSensores"]];
+    NSMutableURLRequest * peticion = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://143.244.174.46:42039/mostrarSensores"]];
         
     //Setea el cuerpo de la consulta
     NSString * bearerString = [NSString stringWithFormat:@"Bearer %@", self.ussToken];
@@ -100,18 +102,24 @@
         {
             json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
             NSLog(@"%@",json);
-            for (NSDictionary * datos in json)
+            
+            for (NSDictionary * datos in [json objectForKey:@"data"])
             {
                 [self.sidSensor addObject:[datos objectForKey:@"idSensor"]];
-                [self.snomSensor addObject:[datos objectForKey:@"NombreSensor"]];
+                [self.snomSensor addObject:[datos objectForKey:@"Nombre"]];
                 [self.sDescripcion addObject:[datos objectForKey:@"Descripcion"]];
-                [self.sfechacreasion addObject:[datos objectForKey:@"Fechadecreacion"]];
-                [self.sfechaactualizacion addObject:[datos objectForKey:@"Fechadeactualisacion"]];
-                [self.sEstado addObject:[datos objectForKey:@"Estado"]];
-                [self.sGPIO addObject:[datos objectForKey:@"GPIO"]];
                 [self.sIMG addObject:[datos objectForKey:@"IMG"]];
+                [self.sfechaactualizacion addObject:[datos objectForKey:@"Fechadecreacion"]];
             }
+            
             dispatch_async(dispatch_get_main_queue(), ^{
+                for (int i=0; i<self.sidSensor.count; i++) {
+                    NSLog(@"%@",self.sidSensor[i]);
+                    NSLog(@"%@",self.snomSensor[i]);
+                    NSLog(@"%@",self.sDescripcion[i]);
+                    NSLog(@"%@",self.sIMG[i]);
+                    NSLog(@"%@",self.sfechaactualizacion[i]);
+                }
                 [self dibujarArticulos];
             });
         }
