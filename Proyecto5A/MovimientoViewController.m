@@ -17,6 +17,7 @@
 @synthesize ussToken,token;
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.mvkControl loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://143.244.174.46"]]];
 }
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if([[segue identifier] isEqualToString:@"Listsensores"]){

@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -17,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 //@property (weak, nonatomic) IBOutlet UIScrollView *srcSensores;
 @property (weak, nonatomic) IBOutlet UIButton *btnMissensores;
 @property (nonatomic, strong) NSString * ussToken;
+@property (weak, nonatomic) IBOutlet WKWebView *mvkControl;
+@property (nonatomic, strong) NSString * urlWeb;
 @property (nonatomic, strong) NSString * token;
 @property (nonatomic) int isUario;
 @property (nonatomic, strong) NSMutableArray * sidSensor;

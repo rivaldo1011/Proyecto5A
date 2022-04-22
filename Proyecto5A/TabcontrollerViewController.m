@@ -147,18 +147,19 @@
         [lblAutor setTextColor:[UIColor colorWithRed:.2 green:.2 blue:.2 alpha:1.0]];
         [lblAutor setFont:[UIFont systemFontOfSize:22]];
         lblAutor.textAlignment = NSTextAlignmentRight;
+        */
         
         UIImageView * imvArticulo = [[UIImageView alloc] initWithFrame:CGRectMake(5, 5, 90, 90)];
-        [imvArticulo sd_setImageWithURL:imagenes[i]];
+        [imvArticulo sd_setImageWithURL:sIMG[i]];
         imvArticulo.contentMode = UIViewContentModeScaleAspectFit;
-        */
+        
         
         UIButton * btnDetalle = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, vwsensores.frame.size.width, vwsensores.frame.size.height)];
         btnDetalle.tag = i;
         //[btnDetalle addTarget:self action:@selector(mandarDetalle:) forControlEvents:UIControlEventTouchUpInside];
         
         [vwsensores addSubview:lblsnomSensor];
-        //[vwsensores addSubview:imvArticulo];
+        [vwsensores addSubview:imvArticulo];
         //[vwsensores addSubview:lblAutor];
         //[vwsensores addSubview:btnDetalle];
         [self.SrcSensores addSubview:vwsensores];
